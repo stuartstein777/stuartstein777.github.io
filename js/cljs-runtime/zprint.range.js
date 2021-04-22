@@ -95,12 +95,12 @@ return next_index;
 return current_index;
 }
 } else {
-var G__37992 = (current_index + row_or_direction__$1);
-var G__37993 = current_index;
-var G__37994 = (tries + (1));
-current_index = G__37992;
-previous_index = G__37993;
-tries = G__37994;
+var G__33415 = (current_index + row_or_direction__$1);
+var G__33416 = current_index;
+var G__33417 = (tries + (1));
+current_index = G__33415;
+previous_index = G__33416;
+tries = G__33417;
 continue;
 }
 
@@ -145,8 +145,8 @@ return n;
  *   removed from it (or this routine would do that for you).
  */
 zprint.range.find_row = (function zprint$range$find_row(var_args){
-var G__37955 = arguments.length;
-switch (G__37955) {
+var G__33310 = arguments.length;
+switch (G__33310) {
 case 4:
 return zprint.range.find_row.cljs$core$IFn$_invoke$arity$4((arguments[(0)]),(arguments[(1)]),(arguments[(2)]),(arguments[(3)]));
 
@@ -182,16 +182,16 @@ return maybe_index;
 if(((cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(maybe_index,new cljs.core.Keyword(null,"before-beginning","before-beginning",485705715))) || (cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(maybe_index,new cljs.core.Keyword(null,"beyond-end","beyond-end",487000285))))){
 return maybe_index;
 } else {
-var G__38004 = (function (){var G__37966 = row_vec_index;
-var G__37967 = ((zprint.range.abs((row_vec_index - previous_index)) / (2)) | (0));
-var fexpr__37965 = ((cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(maybe_index,new cljs.core.Keyword(null,"before","before",-1633692388)))?cljs.core._:cljs.core._PLUS_);
-return (fexpr__37965.cljs$core$IFn$_invoke$arity$2 ? fexpr__37965.cljs$core$IFn$_invoke$arity$2(G__37966,G__37967) : fexpr__37965.call(null,G__37966,G__37967));
+var G__33419 = (function (){var G__33330 = row_vec_index;
+var G__33331 = ((zprint.range.abs((row_vec_index - previous_index)) / (2)) | (0));
+var fexpr__33329 = ((cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(maybe_index,new cljs.core.Keyword(null,"before","before",-1633692388)))?cljs.core._:cljs.core._PLUS_);
+return (fexpr__33329.cljs$core$IFn$_invoke$arity$2 ? fexpr__33329.cljs$core$IFn$_invoke$arity$2(G__33330,G__33331) : fexpr__33329.call(null,G__33330,G__33331));
 })();
-var G__38005 = row_vec_index;
-var G__38006 = (tries + (1));
-row_vec_index = G__38004;
-previous_index = G__38005;
-tries = G__38006;
+var G__33420 = row_vec_index;
+var G__33421 = (tries + (1));
+row_vec_index = G__33419;
+previous_index = G__33420;
+tries = G__33421;
 continue;
 
 }
@@ -220,8 +220,8 @@ var line = cljs.core.nth.cljs$core$IFn$_invoke$arity$2(line_vec,idx);
 if((((!(cljs.core.empty_QMARK_(clojure.string.trim(line))))) || ((idx >= max_idx)))){
 return idx;
 } else {
-var G__38007 = (idx + (1));
-idx = G__38007;
+var G__33422 = (idx + (1));
+idx = G__33422;
 continue;
 }
 break;
@@ -242,8 +242,8 @@ return idx;
 if((idx === (0))){
 return (-1);
 } else {
-var G__38009 = (idx - (1));
-idx = G__38009;
+var G__33423 = (idx - (1));
+idx = G__33423;
 continue;
 
 }
@@ -273,7 +273,7 @@ var end__$2 = (((end__$1 < start__$1))?start__$1:end__$1);
 var row_vec = (function (){try{return cljs.core.mapv.cljs$core$IFn$_invoke$arity$2(cljs.core.meta,edamame.core.parse_string_all.cljs$core$IFn$_invoke$arity$2(filestring,new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null,"all","all",892129742),true,new cljs.core.Keyword(null,"features","features",-1146962336),new cljs.core.PersistentHashSet(null, new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"clj","clj",-660495428),null,new cljs.core.Keyword(null,"cljs","cljs",1492417629),null], null), null),new cljs.core.Keyword(null,"read-cond","read-cond",1056899244),(function (expr){
 return cljs.core.with_meta(cljs.core.PersistentVector.EMPTY,cljs.core.meta(expr));
 }),new cljs.core.Keyword(null,"auto-resolve","auto-resolve",1851201983),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"current","current",-1088038603),cljs.core._STAR_ns_STAR_], null)], null)));
-}catch (e37973){var e = e37973;
+}catch (e33347){var e = e33347;
 return null;
 }})();
 var row_vec__$1 = (cljs.core.truth_(row_vec)?cljs.core.into.cljs$core$IFn$_invoke$arity$2(cljs.core.PersistentVector.EMPTY,cljs.core.remove.cljs$core$IFn$_invoke$arity$2(cljs.core.nil_QMARK_,row_vec)):null);
