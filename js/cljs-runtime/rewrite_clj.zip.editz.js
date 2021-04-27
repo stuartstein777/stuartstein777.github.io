@@ -12,10 +12,10 @@ return clojure.zip.replace(zloc,(rewrite_clj.node.coerce.cljs$core$IFn$_invoke$a
  * node from the result.
  */
 rewrite_clj.zip.editz.edit_node = (function rewrite_clj$zip$editz$edit_node(node,f){
-var G__32597 = (function (){var G__32598 = (rewrite_clj.node.sexpr.cljs$core$IFn$_invoke$arity$1 ? rewrite_clj.node.sexpr.cljs$core$IFn$_invoke$arity$1(node) : rewrite_clj.node.sexpr.call(null,node));
-return (f.cljs$core$IFn$_invoke$arity$1 ? f.cljs$core$IFn$_invoke$arity$1(G__32598) : f.call(null,G__32598));
+var G__36926 = (function (){var G__36927 = (rewrite_clj.node.sexpr.cljs$core$IFn$_invoke$arity$1 ? rewrite_clj.node.sexpr.cljs$core$IFn$_invoke$arity$1(node) : rewrite_clj.node.sexpr.call(null,node));
+return (f.cljs$core$IFn$_invoke$arity$1 ? f.cljs$core$IFn$_invoke$arity$1(G__36927) : f.call(null,G__36927));
 })();
-return (rewrite_clj.node.coerce.cljs$core$IFn$_invoke$arity$1 ? rewrite_clj.node.coerce.cljs$core$IFn$_invoke$arity$1(G__32597) : rewrite_clj.node.coerce.call(null,G__32597));
+return (rewrite_clj.node.coerce.cljs$core$IFn$_invoke$arity$1 ? rewrite_clj.node.coerce.cljs$core$IFn$_invoke$arity$1(G__36926) : rewrite_clj.node.coerce.call(null,G__36926));
 });
 /**
  * Apply the given function to the s-expression at the given
@@ -24,14 +24,14 @@ return (rewrite_clj.node.coerce.cljs$core$IFn$_invoke$arity$1 ? rewrite_clj.node
  */
 rewrite_clj.zip.editz.edit = (function rewrite_clj$zip$editz$edit(var_args){
 var args__4742__auto__ = [];
-var len__4736__auto___32620 = arguments.length;
-var i__4737__auto___32622 = (0);
+var len__4736__auto___36956 = arguments.length;
+var i__4737__auto___36957 = (0);
 while(true){
-if((i__4737__auto___32622 < len__4736__auto___32620)){
-args__4742__auto__.push((arguments[i__4737__auto___32622]));
+if((i__4737__auto___36957 < len__4736__auto___36956)){
+args__4742__auto__.push((arguments[i__4737__auto___36957]));
 
-var G__32623 = (i__4737__auto___32622 + (1));
-i__4737__auto___32622 = G__32623;
+var G__36958 = (i__4737__auto___36957 + (1));
+i__4737__auto___36957 = G__36958;
 continue;
 } else {
 }
@@ -43,21 +43,21 @@ return rewrite_clj.zip.editz.edit.cljs$core$IFn$_invoke$arity$variadic((argument
 });
 
 (rewrite_clj.zip.editz.edit.cljs$core$IFn$_invoke$arity$variadic = (function (zloc,f,args){
-return clojure.zip.edit.cljs$core$IFn$_invoke$arity$variadic(zloc,rewrite_clj.zip.editz.edit_node,cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([(function (p1__32599_SHARP_){
-return cljs.core.apply.cljs$core$IFn$_invoke$arity$3(f,p1__32599_SHARP_,args);
+return clojure.zip.edit.cljs$core$IFn$_invoke$arity$variadic(zloc,rewrite_clj.zip.editz.edit_node,cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([(function (p1__36928_SHARP_){
+return cljs.core.apply.cljs$core$IFn$_invoke$arity$3(f,p1__36928_SHARP_,args);
 })], 0));
 }));
 
 (rewrite_clj.zip.editz.edit.cljs$lang$maxFixedArity = (2));
 
 /** @this {Function} */
-(rewrite_clj.zip.editz.edit.cljs$lang$applyTo = (function (seq32600){
-var G__32601 = cljs.core.first(seq32600);
-var seq32600__$1 = cljs.core.next(seq32600);
-var G__32602 = cljs.core.first(seq32600__$1);
-var seq32600__$2 = cljs.core.next(seq32600__$1);
+(rewrite_clj.zip.editz.edit.cljs$lang$applyTo = (function (seq36929){
+var G__36930 = cljs.core.first(seq36929);
+var seq36929__$1 = cljs.core.next(seq36929);
+var G__36931 = cljs.core.first(seq36929__$1);
+var seq36929__$2 = cljs.core.next(seq36929__$1);
 var self__4723__auto__ = this;
-return self__4723__auto__.cljs$core$IFn$_invoke$arity$variadic(G__32601,G__32602,seq32600__$2);
+return self__4723__auto__.cljs$core$IFn$_invoke$arity$variadic(G__36930,G__36931,seq36929__$2);
 }));
 
 /**
@@ -91,10 +91,10 @@ return zloc;
 });
 rewrite_clj.zip.editz.edit_token = (function rewrite_clj$zip$editz$edit_token(zloc,str_fn){
 var e = rewrite_clj.zip.base.sexpr(zloc);
-var e_SINGLEQUOTE_ = ((typeof e === 'string')?(str_fn.cljs$core$IFn$_invoke$arity$1 ? str_fn.cljs$core$IFn$_invoke$arity$1(e) : str_fn.call(null,e)):(((e instanceof cljs.core.Keyword))?cljs.core.keyword.cljs$core$IFn$_invoke$arity$2(cljs.core.namespace(e),(function (){var G__32607 = cljs.core.name(e);
-return (str_fn.cljs$core$IFn$_invoke$arity$1 ? str_fn.cljs$core$IFn$_invoke$arity$1(G__32607) : str_fn.call(null,G__32607));
-})()):(((e instanceof cljs.core.Symbol))?cljs.core.symbol.cljs$core$IFn$_invoke$arity$2(cljs.core.namespace(e),(function (){var G__32608 = cljs.core.name(e);
-return (str_fn.cljs$core$IFn$_invoke$arity$1 ? str_fn.cljs$core$IFn$_invoke$arity$1(G__32608) : str_fn.call(null,G__32608));
+var e_SINGLEQUOTE_ = ((typeof e === 'string')?(str_fn.cljs$core$IFn$_invoke$arity$1 ? str_fn.cljs$core$IFn$_invoke$arity$1(e) : str_fn.call(null,e)):(((e instanceof cljs.core.Keyword))?cljs.core.keyword.cljs$core$IFn$_invoke$arity$2(cljs.core.namespace(e),(function (){var G__36932 = cljs.core.name(e);
+return (str_fn.cljs$core$IFn$_invoke$arity$1 ? str_fn.cljs$core$IFn$_invoke$arity$1(G__36932) : str_fn.call(null,G__36932));
+})()):(((e instanceof cljs.core.Symbol))?cljs.core.symbol.cljs$core$IFn$_invoke$arity$2(cljs.core.namespace(e),(function (){var G__36933 = cljs.core.name(e);
+return (str_fn.cljs$core$IFn$_invoke$arity$1 ? str_fn.cljs$core$IFn$_invoke$arity$1(G__36933) : str_fn.call(null,G__36933));
 })()):null)));
 return clojure.zip.replace(zloc,(rewrite_clj.node.token_node.cljs$core$IFn$_invoke$arity$1 ? rewrite_clj.node.token_node.cljs$core$IFn$_invoke$arity$1(e_SINGLEQUOTE_) : rewrite_clj.node.token_node.call(null,e_SINGLEQUOTE_)));
 });
@@ -103,12 +103,12 @@ var n = cljs.core.update_in.cljs$core$IFn$_invoke$arity$3(clojure.zip.node(zloc)
 return clojure.zip.replace(zloc,n);
 });
 rewrite_clj.zip.editz.prefix = (function rewrite_clj$zip$editz$prefix(zloc,s){
-var G__32613 = rewrite_clj.zip.base.tag(zloc);
-var G__32613__$1 = (((G__32613 instanceof cljs.core.Keyword))?G__32613.fqn:null);
-switch (G__32613__$1) {
+var G__36936 = rewrite_clj.zip.base.tag(zloc);
+var G__36936__$1 = (((G__36936 instanceof cljs.core.Keyword))?G__36936.fqn:null);
+switch (G__36936__$1) {
 case "token":
-return rewrite_clj.zip.editz.edit_token(zloc,(function (p1__32611_SHARP_){
-return [cljs.core.str.cljs$core$IFn$_invoke$arity$1(s),cljs.core.str.cljs$core$IFn$_invoke$arity$1(p1__32611_SHARP_)].join('');
+return rewrite_clj.zip.editz.edit_token(zloc,(function (p1__36934_SHARP_){
+return [cljs.core.str.cljs$core$IFn$_invoke$arity$1(s),cljs.core.str.cljs$core$IFn$_invoke$arity$1(p1__36934_SHARP_)].join('');
 }));
 
 break;
@@ -117,25 +117,25 @@ return rewrite_clj.zip.editz.edit_multi_line(zloc,(function (lines){
 if(cljs.core.empty_QMARK_(lines)){
 return new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [s], null);
 } else {
-return cljs.core.update_in.cljs$core$IFn$_invoke$arity$3(lines,new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [(0)], null),(function (p1__32612_SHARP_){
-return [cljs.core.str.cljs$core$IFn$_invoke$arity$1(s),cljs.core.str.cljs$core$IFn$_invoke$arity$1(p1__32612_SHARP_)].join('');
+return cljs.core.update_in.cljs$core$IFn$_invoke$arity$3(lines,new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [(0)], null),(function (p1__36935_SHARP_){
+return [cljs.core.str.cljs$core$IFn$_invoke$arity$1(s),cljs.core.str.cljs$core$IFn$_invoke$arity$1(p1__36935_SHARP_)].join('');
 }));
 }
 }));
 
 break;
 default:
-throw (new Error(["No matching clause: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(G__32613__$1)].join('')));
+throw (new Error(["No matching clause: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(G__36936__$1)].join('')));
 
 }
 });
 rewrite_clj.zip.editz.suffix = (function rewrite_clj$zip$editz$suffix(zloc,s){
-var G__32617 = rewrite_clj.zip.base.tag(zloc);
-var G__32617__$1 = (((G__32617 instanceof cljs.core.Keyword))?G__32617.fqn:null);
-switch (G__32617__$1) {
+var G__36938 = rewrite_clj.zip.base.tag(zloc);
+var G__36938__$1 = (((G__36938 instanceof cljs.core.Keyword))?G__36938.fqn:null);
+switch (G__36938__$1) {
 case "token":
-return rewrite_clj.zip.editz.edit_token(zloc,(function (p1__32615_SHARP_){
-return [cljs.core.str.cljs$core$IFn$_invoke$arity$1(p1__32615_SHARP_),cljs.core.str.cljs$core$IFn$_invoke$arity$1(s)].join('');
+return rewrite_clj.zip.editz.edit_token(zloc,(function (p1__36937_SHARP_){
+return [cljs.core.str.cljs$core$IFn$_invoke$arity$1(p1__36937_SHARP_),cljs.core.str.cljs$core$IFn$_invoke$arity$1(s)].join('');
 }));
 
 break;
@@ -150,7 +150,7 @@ return cljs.core.concat.cljs$core$IFn$_invoke$arity$2(cljs.core.butlast(lines),[
 
 break;
 default:
-throw (new Error(["No matching clause: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(G__32617__$1)].join('')));
+throw (new Error(["No matching clause: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(G__36938__$1)].join('')));
 
 }
 });

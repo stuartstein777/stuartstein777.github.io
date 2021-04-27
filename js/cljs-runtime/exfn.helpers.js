@@ -1,12 +1,17 @@
 goog.provide('exfn.helpers');
-exfn.helpers.update_if = (function exfn$helpers$update_if(pred,f){
-return (function (x){
-if(cljs.core.truth_((pred.cljs$core$IFn$_invoke$arity$1 ? pred.cljs$core$IFn$_invoke$arity$1(x) : pred.call(null,x)))){
-return (f.cljs$core$IFn$_invoke$arity$1 ? f.cljs$core$IFn$_invoke$arity$1(x) : f.call(null,x));
+exfn.helpers.get_source_line_numbers = (function exfn$helpers$get_source_line_numbers(source){
+return new cljs.core.Keyword(null,"line-nos","line-nos",-1830843435).cljs$core$IFn$_invoke$arity$1(cljs.core.reduce.cljs$core$IFn$_invoke$arity$3((function (p__45255,i){
+var map__45262 = p__45255;
+var map__45262__$1 = (((((!((map__45262 == null))))?(((((map__45262.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__45262.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__45262):map__45262);
+var acc = map__45262__$1;
+var cur = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__45262__$1,new cljs.core.Keyword(null,"cur","cur",1153190599));
+var line_nos = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__45262__$1,new cljs.core.Keyword(null,"line-nos","line-nos",-1830843435));
+if(((cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2("",i)) || (clojure.string.starts_with_QMARK_(i,";")))){
+return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(acc,new cljs.core.Keyword(null,"line-nos","line-nos",-1830843435),[cljs.core.str.cljs$core$IFn$_invoke$arity$1(line_nos),"\n"].join(''));
 } else {
-return x;
+return cljs.core.update.cljs$core$IFn$_invoke$arity$3(cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(acc,new cljs.core.Keyword(null,"line-nos","line-nos",-1830843435),[cljs.core.str.cljs$core$IFn$_invoke$arity$1(line_nos),cljs.core.str.cljs$core$IFn$_invoke$arity$1(cur),"\n"].join('')),new cljs.core.Keyword(null,"cur","cur",1153190599),cljs.core.inc);
 }
-});
+}),new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"cur","cur",1153190599),(0),new cljs.core.Keyword(null,"line-nos","line-nos",-1830843435),""], null),clojure.string.split.cljs$core$IFn$_invoke$arity$3(source,/\r?\n/,(-1))));
 });
 
 //# sourceMappingURL=exfn.helpers.js.map
