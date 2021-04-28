@@ -5,14 +5,14 @@ zprint.ansi.ansi_codes = cljs.core.PersistentHashMap.fromArrays([new cljs.core.K
  */
 zprint.ansi.color_str = (function zprint$ansi$color_str(var_args){
 var args__4742__auto__ = [];
-var len__4736__auto___31514 = arguments.length;
-var i__4737__auto___31515 = (0);
+var len__4736__auto___35283 = arguments.length;
+var i__4737__auto___35284 = (0);
 while(true){
-if((i__4737__auto___31515 < len__4736__auto___31514)){
-args__4742__auto__.push((arguments[i__4737__auto___31515]));
+if((i__4737__auto___35284 < len__4736__auto___35283)){
+args__4742__auto__.push((arguments[i__4737__auto___35284]));
 
-var G__31516 = (i__4737__auto___31515 + (1));
-i__4737__auto___31515 = G__31516;
+var G__35285 = (i__4737__auto___35284 + (1));
+i__4737__auto___35284 = G__35285;
 continue;
 } else {
 }
@@ -31,11 +31,11 @@ return ["\u001B","[",cljs.core.str.cljs$core$IFn$_invoke$arity$1(ansi_str),"m",c
 (zprint.ansi.color_str.cljs$lang$maxFixedArity = (1));
 
 /** @this {Function} */
-(zprint.ansi.color_str.cljs$lang$applyTo = (function (seq31509){
-var G__31510 = cljs.core.first(seq31509);
-var seq31509__$1 = cljs.core.next(seq31509);
+(zprint.ansi.color_str.cljs$lang$applyTo = (function (seq35258){
+var G__35259 = cljs.core.first(seq35258);
+var seq35258__$1 = cljs.core.next(seq35258);
 var self__4723__auto__ = this;
-return self__4723__auto__.cljs$core$IFn$_invoke$arity$variadic(G__31510,seq31509__$1);
+return self__4723__auto__.cljs$core$IFn$_invoke$arity$variadic(G__35259,seq35258__$1);
 }));
 
 
