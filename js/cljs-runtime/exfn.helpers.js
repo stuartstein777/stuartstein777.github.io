@@ -1,11 +1,20 @@
 goog.provide('exfn.helpers');
 exfn.helpers.get_source_line_numbers = (function exfn$helpers$get_source_line_numbers(source){
+<<<<<<< HEAD
 return new cljs.core.Keyword(null,"line-nos","line-nos",-1830843435).cljs$core$IFn$_invoke$arity$1(cljs.core.reduce.cljs$core$IFn$_invoke$arity$3((function (p__34929,i){
 var map__34930 = p__34929;
 var map__34930__$1 = (((((!((map__34930 == null))))?(((((map__34930.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__34930.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__34930):map__34930);
 var acc = map__34930__$1;
 var cur = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__34930__$1,new cljs.core.Keyword(null,"cur","cur",1153190599));
 var line_nos = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__34930__$1,new cljs.core.Keyword(null,"line-nos","line-nos",-1830843435));
+=======
+return new cljs.core.Keyword(null,"line-nos","line-nos",-1830843435).cljs$core$IFn$_invoke$arity$1(cljs.core.reduce.cljs$core$IFn$_invoke$arity$3((function (p__30003,i){
+var map__30004 = p__30003;
+var map__30004__$1 = (((((!((map__30004 == null))))?(((((map__30004.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__30004.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__30004):map__30004);
+var acc = map__30004__$1;
+var cur = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__30004__$1,new cljs.core.Keyword(null,"cur","cur",1153190599));
+var line_nos = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__30004__$1,new cljs.core.Keyword(null,"line-nos","line-nos",-1830843435));
+>>>>>>> 7c6035e4298a1da3cc9f8039115d74e442a71da9
 if(((cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2("",i)) || (clojure.string.starts_with_QMARK_(i,";")))){
 return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(acc,new cljs.core.Keyword(null,"line-nos","line-nos",-1830843435),[cljs.core.str.cljs$core$IFn$_invoke$arity$1(line_nos),"\n"].join(''));
 } else {
