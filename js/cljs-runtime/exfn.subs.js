@@ -44,5 +44,8 @@ return (db.cljs$core$IFn$_invoke$arity$1 ? db.cljs$core$IFn$_invoke$arity$1(new 
 re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$variadic(new cljs.core.Keyword(null,"on-breakpoint","on-breakpoint",1734264634),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([(function (db,_){
 return (db.cljs$core$IFn$_invoke$arity$1 ? db.cljs$core$IFn$_invoke$arity$1(new cljs.core.Keyword(null,"on-breakpoint","on-breakpoint",1734264634)) : db.call(null,new cljs.core.Keyword(null,"on-breakpoint","on-breakpoint",1734264634)));
 })], 0));
+re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$variadic(new cljs.core.Keyword(null,"last-edit-register","last-edit-register",-465830339),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([(function (db,_){
+return new cljs.core.Keyword(null,"last-edit-register","last-edit-register",-465830339).cljs$core$IFn$_invoke$arity$1(new cljs.core.Keyword(null,"memory","memory",-1449401430).cljs$core$IFn$_invoke$arity$1(db));
+})], 0));
 
 //# sourceMappingURL=exfn.subs.js.map
