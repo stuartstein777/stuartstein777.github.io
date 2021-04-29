@@ -32,5 +32,11 @@ return new cljs.core.Keyword(null,"eip-stack","eip-stack",133100163).cljs$core$I
 re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$variadic(new cljs.core.Keyword(null,"symbols","symbols",1211743),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([(function (db,_){
 return new cljs.core.Keyword(null,"symbol-table","symbol-table",1884137521).cljs$core$IFn$_invoke$arity$1(new cljs.core.Keyword(null,"memory","memory",-1449401430).cljs$core$IFn$_invoke$arity$1(db));
 })], 0));
+re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$variadic(new cljs.core.Keyword(null,"finished?","finished?",2067288119),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([(function (db,_){
+return (db.cljs$core$IFn$_invoke$arity$1 ? db.cljs$core$IFn$_invoke$arity$1(new cljs.core.Keyword(null,"finished?","finished?",2067288119)) : db.call(null,new cljs.core.Keyword(null,"finished?","finished?",2067288119)));
+})], 0));
+re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$variadic(new cljs.core.Keyword(null,"has-parsed-code?","has-parsed-code?",1132141677),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([(function (db,_){
+return (db.cljs$core$IFn$_invoke$arity$1 ? db.cljs$core$IFn$_invoke$arity$1(new cljs.core.Keyword(null,"has-parsed-code?","has-parsed-code?",1132141677)) : db.call(null,new cljs.core.Keyword(null,"has-parsed-code?","has-parsed-code?",1132141677)));
+})], 0));
 
 //# sourceMappingURL=exfn.subs.js.map
