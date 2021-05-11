@@ -3,13 +3,16 @@ body{
 }
 
 .content {
-    margin:10px;
+    /*margin:10px;*/
     text-align: center;
+    width: 100%;
 }
 
 .header {
     background-color: rgb(34, 34, 34);
     border: 1px black solid;
+    font-size: 0.7em;
+    height: 20px;
     color: white;
 }
 
@@ -29,6 +32,7 @@ reagent function::          code-editor
 .source-editor-header {
     height: 25px;
     padding-left: 5px;
+    padding-top: 4px;
     text-align: left;
     vertical-align: middle;
 }
@@ -48,7 +52,7 @@ reagent function::          code-editor
 }
 
 .text-editor {
-    background-color: rgb(29, 29, 29);;
+    background-color: rgb(29, 29, 29);
     border-left: 0px;
     color: rgb(97, 192, 255);
     float: left;
@@ -71,6 +75,13 @@ reagent function::          code
 ----------------------------------------------------------
 */
 
+.parsed-code-container {
+    margin-top: 10px;
+    height: 455px;
+    overflow-y: none;
+    width:  100%;
+}
+
 .breakpoint {
     cursor: pointer;
     width: 25px;
@@ -83,7 +94,7 @@ reagent function::          code
     border-left: 1px solid black;
     border-right: 1px solid black;
     border-bottom: 1px solid black;
-    height: 25px;
+    height: 20px;
 }
 
 .code { 
@@ -96,14 +107,13 @@ reagent function::          code
 .code-container {
     border: 1px rgb(51, 51, 51) solid;
     height: 400px;
-    max-width: 1000px;
-    min-width: 1000px;
-    overflow: auto;
+    overflow-x: visible;
+    overflow-y: auto;
     width: 100%;
 }
 
 .code-line {
-    max-height: 25px;
+    max-height: 20px;
 }
 
 .current-line {
@@ -229,6 +239,8 @@ reagent function::          memory, eip
     border-top: 1px black solid;
     border-bottom: 1px black solid;
     color: black;
+    font-size: 0.7em;
+    height: 20px;
     text-align: center;
     vertical-align: middle;
     width: 125px;
@@ -236,12 +248,15 @@ reagent function::          memory, eip
 
 .eip-container {
     float: left;
+    height: 20px;
     margin: 0;
     text-align: left;
     width: 100%;
 }
 
 .eip-header {
+    font-size: 0.7em;
+    height: 20px;
     text-align: center;
     vertical-align: middle;
     width: 100px;
@@ -253,7 +268,9 @@ reagent function::          memory, eip
 }
 
 .registers-header {
-    padding: 5px;
+    font-size: 0.7em;
+    height: 20px;
+    padding-left: 10px;
     text-align: center;
     vertical-align: middle;
     width: 225px;
@@ -276,6 +293,8 @@ reagent function::          memory, eip
     background-color: grey;
     border-bottom: 1px solid black;
     border-left: 1px solid black;
+    font-size: 0.7em;
+    height: 20px;
     margin-left: 10px;
     text-align: center;
     width: 105px;
@@ -285,6 +304,8 @@ reagent function::          memory, eip
     background-color: white;
     border-bottom: 1px solid black;
     border-right: 1px solid black;
+    font-size: 0.7em;
+    height: 20px;
     text-align: center;
     width: 105px;
 }
@@ -309,7 +330,9 @@ reagent function::          memory, eip
 }
 
 .stack-header {
-    padding: 5px;
+    font-size: 0.7em;
+    height: 20px;
+    padding-left: 10px;
     text-align: center;
     vertical-align: middle;
     width: 125px;
@@ -332,6 +355,8 @@ reagent function::          memory, eip
     background-color: white;
     border-bottom: 1px solid black;
     border-right: 1px solid black;
+    font-size: 0.7em;
+    height: 20px;
     text-align: center;
     width: 120px;
 }
@@ -340,6 +365,8 @@ reagent function::          memory, eip
     background-color: white;
     border-bottom: 1px solid black;
     border-right: 1px solid black;
+    font-size: 0.7em;
+    height: 20px;
     text-align: center;
     width: 105px;
 }
@@ -350,37 +377,42 @@ reagent function::          memory, eip
 }
 
 .symbol-table-header {
-    padding: 5px;
+    font-size: 0.7em;
+    height: 20px;
+    padding-left: 10px;
     text-align: center;
     vertical-align: middle;
-    width: 200px;
+    width: 150px;
 }
 
 .symbol-table {
     border: 1px solid black;
     height: 350px;
     max-height: 350px;
-    max-width: 200px;
+    max-width: 150px;
     min-height: 350px;
-    min-width: 200px;
+    min-width: 150px;
     overflow-x: hidden;
     overflow-y: scroll;
-    width: 200px;
+    width: 150px;
 }
 
 .symbol-name {
     background-color: gray;
     border-bottom: 1px solid black;
+    font-size: 0.7em;
+    height: 20px;    
     text-align: center;
     width: 94px;
-
 }
 
 .symbol-value {
     background-color: white;
     border-bottom: 1px solid black;
+    font-size: 0.7em;
+    height: 20px;
     text-align: right;
-    width: 100px;
+    width: 50px;
 }
 
 .breakpoint-label {
@@ -388,17 +420,31 @@ reagent function::          memory, eip
     vertical-align: middle;
 }
 
+.std-out-header {
+    background-color: rgb(34, 34, 34);
+    border: 1px black solid;
+    color: white;
+    font-size: 0.7em;
+    height: 25px;
+    text-align: left;
+    padding-top: 3px;
+    width: 100%;
+}
+
 .std-out-container {
-    margin-left: 50px;
+    margin-top: 10px;
+    margin-right: 10px;
+    text-align: left;
+    width: 100%;
 }
 
 .std-out {
     background-color: rgb(46,43,43);
     color: greenyellow;
-    height: 320px;
-    max-height: 320px;
+    height: 410px;
+    max-height: 410px;
     padding: 10px;
-    width: 400px;    
+    width: 100%;
 }
 
 .speed-value-error {
