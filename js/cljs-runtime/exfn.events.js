@@ -5,10 +5,10 @@ return cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"runni
 exfn.events.dispatch_timer_event = (function exfn$events$dispatch_timer_event(){
 return re_frame.core.dispatch(new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"next-instruction","next-instruction",-1250475904)], null));
 });
-re_frame.core.reg_event_db.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"update-source","update-source",-132063591),(function (db,p__30126){
-var vec__30127 = p__30126;
-var _ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__30127,(0),null);
-var source = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__30127,(1),null);
+re_frame.core.reg_event_db.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"update-source","update-source",-132063591),(function (db,p__29760){
+var vec__29761 = p__29760;
+var _ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__29761,(0),null);
+var source = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__29761,(1),null);
 return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(db,new cljs.core.Keyword(null,"source","source",-433931539),source);
 }));
 re_frame.core.reg_fx(new cljs.core.Keyword(null,"scroll-parsed-code-to-top","scroll-parsed-code-to-top",-144526972),(function (_){
@@ -17,18 +17,18 @@ return (document.getElementById("code-container").scrollTop = (0));
 exfn.events.fill_data_registers = (function exfn$events$fill_data_registers(data){
 return cljs.core.zipmap(cljs.core.map.cljs$core$IFn$_invoke$arity$2(cljs.core.first,data),cljs.core.map.cljs$core$IFn$_invoke$arity$2(cljs.core.second,data));
 });
-re_frame.core.reg_event_fx.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"parse","parse",-1162164619),(function (p__30130,_){
-var map__30131 = p__30130;
-var map__30131__$1 = (((((!((map__30131 == null))))?(((((map__30131.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__30131.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__30131):map__30131);
-var db = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__30131__$1,new cljs.core.Keyword(null,"db","db",993250759));
+re_frame.core.reg_event_fx.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"parse","parse",-1162164619),(function (p__29764,_){
+var map__29765 = p__29764;
+var map__29765__$1 = (((((!((map__29765 == null))))?(((((map__29765.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__29765.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__29765):map__29765);
+var db = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__29765__$1,new cljs.core.Keyword(null,"db","db",993250759));
 var parsed = exfn.parser.parse((db.cljs$core$IFn$_invoke$arity$1 ? db.cljs$core$IFn$_invoke$arity$1(new cljs.core.Keyword(null,"source","source",-433931539)) : db.call(null,new cljs.core.Keyword(null,"source","source",-433931539))));
 var symbol_table = exfn.interpreter.build_symbol_table((parsed.cljs$core$IFn$_invoke$arity$1 ? parsed.cljs$core$IFn$_invoke$arity$1(new cljs.core.Keyword(null,"code","code",1586293142)) : parsed.call(null,new cljs.core.Keyword(null,"code","code",1586293142))));
 return new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"db","db",993250759),cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(db,new cljs.core.Keyword(null,"memory","memory",-1449401430),cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"eip-stack","eip-stack",133100163),new cljs.core.Keyword(null,"eip","eip",-346827869),new cljs.core.Keyword(null,"registers","registers",81921893),new cljs.core.Keyword(null,"internal-registers","internal-registers",-1438566520),new cljs.core.Keyword(null,"output","output",-1105869043),new cljs.core.Keyword(null,"symbol-table","symbol-table",1884137521),new cljs.core.Keyword(null,"stack","stack",-793405930),new cljs.core.Keyword(null,"rep-counters-stack","rep-counters-stack",-1518632905),new cljs.core.Keyword(null,"termination-message","termination-message",647459967)],[cljs.core.PersistentVector.EMPTY,(0),exfn.events.fill_data_registers((parsed.cljs$core$IFn$_invoke$arity$1 ? parsed.cljs$core$IFn$_invoke$arity$1(new cljs.core.Keyword(null,"data","data",-232669377)) : parsed.call(null,new cljs.core.Keyword(null,"data","data",-232669377)))),cljs.core.PersistentArrayMap.EMPTY,(cljs.core.truth_((db.cljs$core$IFn$_invoke$arity$1 ? db.cljs$core$IFn$_invoke$arity$1(new cljs.core.Keyword(null,"running?","running?",-257884763)) : db.call(null,new cljs.core.Keyword(null,"running?","running?",-257884763))))?[cljs.core.str.cljs$core$IFn$_invoke$arity$1(new cljs.core.Keyword(null,"output","output",-1105869043).cljs$core$IFn$_invoke$arity$1(new cljs.core.Keyword(null,"memory","memory",-1449401430).cljs$core$IFn$_invoke$arity$1(db))),"\nUser terminated."].join(''):new cljs.core.Keyword(null,"output","output",-1105869043).cljs$core$IFn$_invoke$arity$1(new cljs.core.Keyword(null,"memory","memory",-1449401430).cljs$core$IFn$_invoke$arity$1(db))),symbol_table,cljs.core.PersistentVector.EMPTY,cljs.core.PersistentVector.EMPTY,""])),new cljs.core.Keyword(null,"code","code",1586293142),(parsed.cljs$core$IFn$_invoke$arity$1 ? parsed.cljs$core$IFn$_invoke$arity$1(new cljs.core.Keyword(null,"code","code",1586293142)) : parsed.call(null,new cljs.core.Keyword(null,"code","code",1586293142)))),new cljs.core.Keyword(null,"on-breakpoint","on-breakpoint",1734264634),false),new cljs.core.Keyword(null,"has-parsed-code?","has-parsed-code?",1132141677),(cljs.core.count((parsed.cljs$core$IFn$_invoke$arity$1 ? parsed.cljs$core$IFn$_invoke$arity$1(new cljs.core.Keyword(null,"code","code",1586293142)) : parsed.call(null,new cljs.core.Keyword(null,"code","code",1586293142)))) > (0))),new cljs.core.Keyword(null,"finished?","finished?",2067288119),false),new cljs.core.Keyword(null,"running?","running?",-257884763),false),new cljs.core.Keyword(null,"scroll-parsed-code-to-top","scroll-parsed-code-to-top",-144526972),_,new cljs.core.Keyword(null,"end-running","end-running",420137350),(db.cljs$core$IFn$_invoke$arity$1 ? db.cljs$core$IFn$_invoke$arity$1(new cljs.core.Keyword(null,"ticker-handle","ticker-handle",-1979061930)) : db.call(null,new cljs.core.Keyword(null,"ticker-handle","ticker-handle",-1979061930)))], null);
 }));
-re_frame.core.reg_event_fx.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"clear-parsed","clear-parsed",-1655539557),(function (p__30133,_){
-var map__30134 = p__30133;
-var map__30134__$1 = (((((!((map__30134 == null))))?(((((map__30134.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__30134.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__30134):map__30134);
-var db = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__30134__$1,new cljs.core.Keyword(null,"db","db",993250759));
+re_frame.core.reg_event_fx.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"clear-parsed","clear-parsed",-1655539557),(function (p__29767,_){
+var map__29768 = p__29767;
+var map__29768__$1 = (((((!((map__29768 == null))))?(((((map__29768.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__29768.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__29768):map__29768);
+var db = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__29768__$1,new cljs.core.Keyword(null,"db","db",993250759));
 return new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"db","db",993250759),cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(db,new cljs.core.Keyword(null,"code","code",1586293142),cljs.core.PersistentVector.EMPTY),new cljs.core.Keyword(null,"running?","running?",-257884763),false),new cljs.core.Keyword(null,"has-parsed-code?","has-parsed-code?",1132141677),false),new cljs.core.Keyword(null,"on-breakpoint","on-breakpoint",1734264634),false),new cljs.core.Keyword(null,"memory","memory",-1449401430),new cljs.core.PersistentArrayMap(null, 7, [new cljs.core.Keyword(null,"eip","eip",-346827869),(0),new cljs.core.Keyword(null,"registers","registers",81921893),cljs.core.PersistentArrayMap.EMPTY,new cljs.core.Keyword(null,"eip-stack","eip-stack",133100163),cljs.core.PersistentVector.EMPTY,new cljs.core.Keyword(null,"internal-registers","internal-registers",-1438566520),cljs.core.PersistentArrayMap.EMPTY,new cljs.core.Keyword(null,"output","output",-1105869043),(cljs.core.truth_((db.cljs$core$IFn$_invoke$arity$1 ? db.cljs$core$IFn$_invoke$arity$1(new cljs.core.Keyword(null,"running?","running?",-257884763)) : db.call(null,new cljs.core.Keyword(null,"running?","running?",-257884763))))?[cljs.core.str.cljs$core$IFn$_invoke$arity$1(new cljs.core.Keyword(null,"output","output",-1105869043).cljs$core$IFn$_invoke$arity$1(new cljs.core.Keyword(null,"memory","memory",-1449401430).cljs$core$IFn$_invoke$arity$1(db))),"\nUser terminated."].join(''):new cljs.core.Keyword(null,"output","output",-1105869043).cljs$core$IFn$_invoke$arity$1(new cljs.core.Keyword(null,"memory","memory",-1449401430).cljs$core$IFn$_invoke$arity$1(db))),new cljs.core.Keyword(null,"stack","stack",-793405930),cljs.core.PersistentVector.EMPTY,new cljs.core.Keyword(null,"symbol-table","symbol-table",1884137521),cljs.core.PersistentVector.EMPTY], null)),new cljs.core.Keyword(null,"end-running","end-running",420137350),(db.cljs$core$IFn$_invoke$arity$1 ? db.cljs$core$IFn$_invoke$arity$1(new cljs.core.Keyword(null,"ticker-handle","ticker-handle",-1979061930)) : db.call(null,new cljs.core.Keyword(null,"ticker-handle","ticker-handle",-1979061930)))], null);
 }));
 re_frame.core.reg_event_db.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"clear-breakpoints","clear-breakpoints",-910746754),(function (db,_){
@@ -37,39 +37,39 @@ return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(db,new cljs.core.Keyword(nu
 re_frame.core.reg_fx(new cljs.core.Keyword(null,"scroll-line-nos","scroll-line-nos",-1303606273),(function (scroll_pos){
 return (document.getElementById("lineNos").scrollTop = scroll_pos);
 }));
-re_frame.core.reg_event_fx.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"update-scroll","update-scroll",-585233806),(function (p__30136,p__30137){
-var map__30138 = p__30136;
-var map__30138__$1 = (((((!((map__30138 == null))))?(((((map__30138.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__30138.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__30138):map__30138);
-var db = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__30138__$1,new cljs.core.Keyword(null,"db","db",993250759));
-var vec__30139 = p__30137;
-var _ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__30139,(0),null);
-var scroll_pos = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__30139,(1),null);
+re_frame.core.reg_event_fx.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"update-scroll","update-scroll",-585233806),(function (p__29770,p__29771){
+var map__29772 = p__29770;
+var map__29772__$1 = (((((!((map__29772 == null))))?(((((map__29772.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__29772.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__29772):map__29772);
+var db = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__29772__$1,new cljs.core.Keyword(null,"db","db",993250759));
+var vec__29773 = p__29771;
+var _ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__29773,(0),null);
+var scroll_pos = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__29773,(1),null);
 return new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"db","db",993250759),cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(db,new cljs.core.Keyword(null,"scroll-pos","scroll-pos",292123569),scroll_pos),new cljs.core.Keyword(null,"scroll-line-nos","scroll-line-nos",-1303606273),scroll_pos], null);
 }));
 re_frame.core.reg_event_db.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"clear-source","clear-source",-602361457),(function (db,_){
 return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(db,new cljs.core.Keyword(null,"source","source",-433931539),"");
 }));
-re_frame.core.reg_event_db.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"toggle-breakpoint","toggle-breakpoint",61273766),(function (p__30143,p__30144){
-var map__30145 = p__30143;
-var map__30145__$1 = (((((!((map__30145 == null))))?(((((map__30145.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__30145.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__30145):map__30145);
-var db = map__30145__$1;
-var breakpoints = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__30145__$1,new cljs.core.Keyword(null,"breakpoints","breakpoints",1018731739));
-var vec__30146 = p__30144;
-var _ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__30146,(0),null);
-var line_no = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__30146,(1),null);
+re_frame.core.reg_event_db.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"toggle-breakpoint","toggle-breakpoint",61273766),(function (p__29777,p__29778){
+var map__29779 = p__29777;
+var map__29779__$1 = (((((!((map__29779 == null))))?(((((map__29779.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__29779.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__29779):map__29779);
+var db = map__29779__$1;
+var breakpoints = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__29779__$1,new cljs.core.Keyword(null,"breakpoints","breakpoints",1018731739));
+var vec__29780 = p__29778;
+var _ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__29780,(0),null);
+var line_no = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__29780,(1),null);
 return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(db,new cljs.core.Keyword(null,"breakpoints","breakpoints",1018731739),(((!(((breakpoints.cljs$core$IFn$_invoke$arity$1 ? breakpoints.cljs$core$IFn$_invoke$arity$1(line_no) : breakpoints.call(null,line_no)) == null))))?clojure.set.difference.cljs$core$IFn$_invoke$arity$2(breakpoints,cljs.core.PersistentHashSet.createAsIfByAssoc([line_no])):cljs.core.conj.cljs$core$IFn$_invoke$arity$2(breakpoints,line_no)));
 }));
-re_frame.core.reg_event_db.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"set-handle","set-handle",357208178),(function (db,p__30150){
-var vec__30151 = p__30150;
-var _ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__30151,(0),null);
-var handle = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__30151,(1),null);
+re_frame.core.reg_event_db.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"set-handle","set-handle",357208178),(function (db,p__29784){
+var vec__29785 = p__29784;
+var _ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__29785,(0),null);
+var handle = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__29785,(1),null);
 return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(db,new cljs.core.Keyword(null,"ticker-handle","ticker-handle",-1979061930),handle);
 }));
-re_frame.core.reg_fx(new cljs.core.Keyword(null,"toggle-running","toggle-running",2059919510),(function (p__30154){
-var vec__30155 = p__30154;
-var running_QMARK_ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__30155,(0),null);
-var handle = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__30155,(1),null);
-var speed = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__30155,(2),null);
+re_frame.core.reg_fx(new cljs.core.Keyword(null,"toggle-running","toggle-running",2059919510),(function (p__29788){
+var vec__29789 = p__29788;
+var running_QMARK_ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__29789,(0),null);
+var handle = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__29789,(1),null);
+var speed = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__29789,(2),null);
 if(cljs.core.truth_(running_QMARK_)){
 return re_frame.core.dispatch(new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"set-handle","set-handle",357208178),setInterval(exfn.events.dispatch_timer_event,speed)], null));
 } else {
@@ -79,44 +79,44 @@ return clearInterval(handle);
 re_frame.core.reg_fx(new cljs.core.Keyword(null,"scroll-current-code-into-view","scroll-current-code-into-view",-2147354324),(function (eip){
 return (document.getElementById("code-container").scrollTop = (eip * (25)));
 }));
-re_frame.core.reg_event_fx.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"toggle-running","toggle-running",2059919510),(function (p__30158,_){
-var map__30159 = p__30158;
-var map__30159__$1 = (((((!((map__30159 == null))))?(((((map__30159.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__30159.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__30159):map__30159);
-var db = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__30159__$1,new cljs.core.Keyword(null,"db","db",993250759));
+re_frame.core.reg_event_fx.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"toggle-running","toggle-running",2059919510),(function (p__29792,_){
+var map__29793 = p__29792;
+var map__29793__$1 = (((((!((map__29793 == null))))?(((((map__29793.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__29793.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__29793):map__29793);
+var db = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__29793__$1,new cljs.core.Keyword(null,"db","db",993250759));
 return new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"db","db",993250759),cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(db,new cljs.core.Keyword(null,"running?","running?",-257884763),cljs.core.not((db.cljs$core$IFn$_invoke$arity$1 ? db.cljs$core$IFn$_invoke$arity$1(new cljs.core.Keyword(null,"running?","running?",-257884763)) : db.call(null,new cljs.core.Keyword(null,"running?","running?",-257884763))))),new cljs.core.Keyword(null,"toggle-running","toggle-running",2059919510),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.not((db.cljs$core$IFn$_invoke$arity$1 ? db.cljs$core$IFn$_invoke$arity$1(new cljs.core.Keyword(null,"running?","running?",-257884763)) : db.call(null,new cljs.core.Keyword(null,"running?","running?",-257884763)))),(db.cljs$core$IFn$_invoke$arity$1 ? db.cljs$core$IFn$_invoke$arity$1(new cljs.core.Keyword(null,"ticker-handle","ticker-handle",-1979061930)) : db.call(null,new cljs.core.Keyword(null,"ticker-handle","ticker-handle",-1979061930))),(db.cljs$core$IFn$_invoke$arity$1 ? db.cljs$core$IFn$_invoke$arity$1(new cljs.core.Keyword(null,"running-speed","running-speed",1483517183)) : db.call(null,new cljs.core.Keyword(null,"running-speed","running-speed",1483517183)))], null)], null);
 }));
 re_frame.core.reg_fx(new cljs.core.Keyword(null,"end-running","end-running",420137350),(function (handle){
 return clearInterval(handle);
 }));
-re_frame.core.reg_fx(new cljs.core.Keyword(null,"end-if-finished","end-if-finished",1848036361),(function (p__30161){
-var vec__30162 = p__30161;
-var handle = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__30162,(0),null);
-var finished_QMARK_ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__30162,(1),null);
+re_frame.core.reg_fx(new cljs.core.Keyword(null,"end-if-finished","end-if-finished",1848036361),(function (p__29795){
+var vec__29796 = p__29795;
+var handle = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__29796,(0),null);
+var finished_QMARK_ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__29796,(1),null);
 if(cljs.core.truth_(finished_QMARK_)){
 return clearInterval(handle);
 } else {
 return null;
 }
 }));
-re_frame.core.reg_event_fx.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"reset","reset",-800929946),(function (p__30165,_){
-var map__30166 = p__30165;
-var map__30166__$1 = (((((!((map__30166 == null))))?(((((map__30166.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__30166.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__30166):map__30166);
-var db = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__30166__$1,new cljs.core.Keyword(null,"db","db",993250759));
+re_frame.core.reg_event_fx.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"reset","reset",-800929946),(function (p__29799,_){
+var map__29800 = p__29799;
+var map__29800__$1 = (((((!((map__29800 == null))))?(((((map__29800.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__29800.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__29800):map__29800);
+var db = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__29800__$1,new cljs.core.Keyword(null,"db","db",993250759));
 return new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"db","db",993250759),cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(db,new cljs.core.Keyword(null,"memory","memory",-1449401430),new cljs.core.PersistentArrayMap(null, 8, [new cljs.core.Keyword(null,"eip","eip",-346827869),(0),new cljs.core.Keyword(null,"registers","registers",81921893),cljs.core.PersistentArrayMap.EMPTY,new cljs.core.Keyword(null,"eip-stack","eip-stack",133100163),cljs.core.PersistentVector.EMPTY,new cljs.core.Keyword(null,"internal-registers","internal-registers",-1438566520),cljs.core.PersistentArrayMap.EMPTY,new cljs.core.Keyword(null,"stack","stack",-793405930),cljs.core.PersistentVector.EMPTY,new cljs.core.Keyword(null,"rep-counters-stack","rep-counters-stack",-1518632905),cljs.core.PersistentVector.EMPTY,new cljs.core.Keyword(null,"symbol-table","symbol-table",1884137521),new cljs.core.Keyword(null,"symbol-table","symbol-table",1884137521).cljs$core$IFn$_invoke$arity$1(new cljs.core.Keyword(null,"memory","memory",-1449401430).cljs$core$IFn$_invoke$arity$1(db)),new cljs.core.Keyword(null,"output","output",-1105869043),(cljs.core.truth_((db.cljs$core$IFn$_invoke$arity$1 ? db.cljs$core$IFn$_invoke$arity$1(new cljs.core.Keyword(null,"running?","running?",-257884763)) : db.call(null,new cljs.core.Keyword(null,"running?","running?",-257884763))))?[cljs.core.str.cljs$core$IFn$_invoke$arity$1(new cljs.core.Keyword(null,"output","output",-1105869043).cljs$core$IFn$_invoke$arity$1(new cljs.core.Keyword(null,"memory","memory",-1449401430).cljs$core$IFn$_invoke$arity$1(db))),"\nUser terminated."].join(''):new cljs.core.Keyword(null,"output","output",-1105869043).cljs$core$IFn$_invoke$arity$1(new cljs.core.Keyword(null,"memory","memory",-1449401430).cljs$core$IFn$_invoke$arity$1(db)))], null)),new cljs.core.Keyword(null,"running?","running?",-257884763),false),new cljs.core.Keyword(null,"on-breakpoint","on-breakpoint",1734264634),false),new cljs.core.Keyword(null,"finished?","finished?",2067288119),false),new cljs.core.Keyword(null,"toggle-running","toggle-running",2059919510),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [false,(db.cljs$core$IFn$_invoke$arity$1 ? db.cljs$core$IFn$_invoke$arity$1(new cljs.core.Keyword(null,"ticker-handle","ticker-handle",-1979061930)) : db.call(null,new cljs.core.Keyword(null,"ticker-handle","ticker-handle",-1979061930)))], null),new cljs.core.Keyword(null,"scroll-parsed-code-to-top","scroll-parsed-code-to-top",-144526972),_], null);
 }));
-re_frame.core.reg_event_fx.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"next-instruction","next-instruction",-1250475904),(function (p__30168,_){
-var map__30169 = p__30168;
-var map__30169__$1 = (((((!((map__30169 == null))))?(((((map__30169.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__30169.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__30169):map__30169);
-var db = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__30169__$1,new cljs.core.Keyword(null,"db","db",993250759));
-var map__30171 = exfn.interpreter.interpret((db.cljs$core$IFn$_invoke$arity$1 ? db.cljs$core$IFn$_invoke$arity$1(new cljs.core.Keyword(null,"code","code",1586293142)) : db.call(null,new cljs.core.Keyword(null,"code","code",1586293142))),(db.cljs$core$IFn$_invoke$arity$1 ? db.cljs$core$IFn$_invoke$arity$1(new cljs.core.Keyword(null,"memory","memory",-1449401430)) : db.call(null,new cljs.core.Keyword(null,"memory","memory",-1449401430))));
-var map__30171__$1 = (((((!((map__30171 == null))))?(((((map__30171.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__30171.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__30171):map__30171);
-var memory = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__30171__$1,new cljs.core.Keyword(null,"memory","memory",-1449401430));
-var finished_QMARK_ = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__30171__$1,new cljs.core.Keyword(null,"finished?","finished?",2067288119));
-var terminated_QMARK_ = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__30171__$1,new cljs.core.Keyword(null,"terminated?","terminated?",209866129));
+re_frame.core.reg_event_fx.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"next-instruction","next-instruction",-1250475904),(function (p__29802,_){
+var map__29803 = p__29802;
+var map__29803__$1 = (((((!((map__29803 == null))))?(((((map__29803.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__29803.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__29803):map__29803);
+var db = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__29803__$1,new cljs.core.Keyword(null,"db","db",993250759));
+var map__29805 = exfn.interpreter.interpret((db.cljs$core$IFn$_invoke$arity$1 ? db.cljs$core$IFn$_invoke$arity$1(new cljs.core.Keyword(null,"code","code",1586293142)) : db.call(null,new cljs.core.Keyword(null,"code","code",1586293142))),(db.cljs$core$IFn$_invoke$arity$1 ? db.cljs$core$IFn$_invoke$arity$1(new cljs.core.Keyword(null,"memory","memory",-1449401430)) : db.call(null,new cljs.core.Keyword(null,"memory","memory",-1449401430))));
+var map__29805__$1 = (((((!((map__29805 == null))))?(((((map__29805.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__29805.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__29805):map__29805);
+var memory = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__29805__$1,new cljs.core.Keyword(null,"memory","memory",-1449401430));
+var finished_QMARK_ = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__29805__$1,new cljs.core.Keyword(null,"finished?","finished?",2067288119));
+var terminated_QMARK_ = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__29805__$1,new cljs.core.Keyword(null,"terminated?","terminated?",209866129));
 var breakpoints = (db.cljs$core$IFn$_invoke$arity$1 ? db.cljs$core$IFn$_invoke$arity$1(new cljs.core.Keyword(null,"breakpoints","breakpoints",1018731739)) : db.call(null,new cljs.core.Keyword(null,"breakpoints","breakpoints",1018731739)));
 var db__$1 = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(db,new cljs.core.Keyword(null,"memory","memory",-1449401430),memory),new cljs.core.Keyword(null,"finished?","finished?",2067288119),finished_QMARK_),new cljs.core.Keyword(null,"running?","running?",-257884763),(cljs.core.truth_(finished_QMARK_)?false:(db.cljs$core$IFn$_invoke$arity$1 ? db.cljs$core$IFn$_invoke$arity$1(new cljs.core.Keyword(null,"running?","running?",-257884763)) : db.call(null,new cljs.core.Keyword(null,"running?","running?",-257884763)))));
-if((!(((function (){var G__30173 = new cljs.core.Keyword(null,"eip","eip",-346827869).cljs$core$IFn$_invoke$arity$1(memory);
-return (breakpoints.cljs$core$IFn$_invoke$arity$1 ? breakpoints.cljs$core$IFn$_invoke$arity$1(G__30173) : breakpoints.call(null,G__30173));
+if((!(((function (){var G__29807 = new cljs.core.Keyword(null,"eip","eip",-346827869).cljs$core$IFn$_invoke$arity$1(memory);
+return (breakpoints.cljs$core$IFn$_invoke$arity$1 ? breakpoints.cljs$core$IFn$_invoke$arity$1(G__29807) : breakpoints.call(null,G__29807));
 })() == null)))){
 return new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"db","db",993250759),cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(db__$1,new cljs.core.Keyword(null,"on-breakpoint","on-breakpoint",1734264634),true),new cljs.core.Keyword(null,"running?","running?",-257884763),false),new cljs.core.Keyword(null,"scroll-current-code-into-view","scroll-current-code-into-view",-2147354324),new cljs.core.Keyword(null,"eip","eip",-346827869).cljs$core$IFn$_invoke$arity$1(memory),new cljs.core.Keyword(null,"toggle-running","toggle-running",2059919510),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [false,(db__$1.cljs$core$IFn$_invoke$arity$1 ? db__$1.cljs$core$IFn$_invoke$arity$1(new cljs.core.Keyword(null,"ticker-handle","ticker-handle",-1979061930)) : db__$1.call(null,new cljs.core.Keyword(null,"ticker-handle","ticker-handle",-1979061930)))], null)], null);
 } else {
@@ -153,24 +153,24 @@ return terminated_QMARK_;
 re_frame.core.reg_event_db.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"clear-output","clear-output",-1992375499),(function (db,_){
 return cljs.core.assoc_in(db,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"memory","memory",-1449401430),new cljs.core.Keyword(null,"output","output",-1105869043)], null),"$ Toy Asm Output >");
 }));
-re_frame.core.reg_event_db.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"add-value-to-registers","add-value-to-registers",-532527242),(function (db,p__30174){
-var vec__30175 = p__30174;
-var _ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__30175,(0),null);
-var vec__30178 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__30175,(1),null);
-var k = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__30178,(0),null);
-var v = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__30178,(1),null);
+re_frame.core.reg_event_db.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"add-value-to-registers","add-value-to-registers",-532527242),(function (db,p__29808){
+var vec__29809 = p__29808;
+var _ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__29809,(0),null);
+var vec__29812 = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__29809,(1),null);
+var k = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__29812,(0),null);
+var v = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__29812,(1),null);
 return cljs.core.update_in.cljs$core$IFn$_invoke$arity$5(db,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"memory","memory",-1449401430),new cljs.core.Keyword(null,"registers","registers",81921893)], null),cljs.core.assoc,k,v);
 }));
-re_frame.core.reg_event_db.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"update-running-speed","update-running-speed",-1892375383),(function (db,p__30181){
-var vec__30182 = p__30181;
-var _ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__30182,(0),null);
-var speed = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__30182,(1),null);
+re_frame.core.reg_event_db.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"update-running-speed","update-running-speed",-1892375383),(function (db,p__29815){
+var vec__29816 = p__29815;
+var _ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__29816,(0),null);
+var speed = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__29816,(1),null);
 return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(db,new cljs.core.Keyword(null,"running-speed","running-speed",1483517183),speed);
 }));
-re_frame.core.reg_event_db.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"add-value-to-stack","add-value-to-stack",-680759018),(function (db,p__30185){
-var vec__30186 = p__30185;
-var _ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__30186,(0),null);
-var v = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__30186,(1),null);
+re_frame.core.reg_event_db.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"add-value-to-stack","add-value-to-stack",-680759018),(function (db,p__29819){
+var vec__29820 = p__29819;
+var _ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__29820,(0),null);
+var v = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__29820,(1),null);
 return cljs.core.update_in.cljs$core$IFn$_invoke$arity$4(db,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"memory","memory",-1449401430),new cljs.core.Keyword(null,"stack","stack",-793405930)], null),cljs.core.conj,v);
 }));
 re_frame.core.reg_event_db.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"reset-eip","reset-eip",-2046799124),(function (db,_){
