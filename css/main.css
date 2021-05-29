@@ -6,15 +6,32 @@ body{
     margin:10px;
 }
 
-.canvas {
-    border: 3px black solid;
+
+.letter {
+    padding: 5px;
+    margin: 5px;
 }
 
-.result {
-    border: 2px black solid;
-    background-color:yellow;
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.btn{
-    margin: 10px;
+.flex-container > div {
+    /*background-color: #f1f1f1;*/
+    width: 50px;
+    margin: 5px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+}
+
+ul.no-bullets {
+    list-style: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margins */
+  }
+
+.winners-count {
+    margin-left: 15px;
 }
