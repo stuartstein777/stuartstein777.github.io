@@ -1,0 +1,78 @@
+body{
+    background-color: rgb(152, 193, 217);
+}
+
+.content {
+    text-align: center;
+    margin:10px;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.flex-container > div {
+    margin: 0px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+}
+
+.maze {
+    border: 2px solid black;
+    width: 800px;
+}
+
+.map-tile {
+    border: 1px dotted rgb(224, 224, 224);
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 40px;
+    width: 40px;
+}
+
+.wall {
+    background-color:black;
+    border: 1px solid black;
+}
+
+.path {
+    background-color: goldenrod;
+}
+
+.finish {
+    background-color:seagreen;
+}
+
+.start {
+    background-color: dodgerblue;
+}
+
+.walking-man {
+    padding-top: 10px;
+    padding-left: 12px;
+}
+
+.finish-flag {
+    padding-top: 10px;
+    padding-left: 12px;
+}
+
+.toggle-btn {
+    margin-right: 5px;
+}
+
+.setting-indicator {
+    font-size: 1.4em;
+    font-weight: bolder;
+}
+
+.no-solution {
+    color:rgb(173, 34, 10);
+    font-size: 1.4em;
+    font-weight: bolder;
+    margin-left: 15px;   
+}
