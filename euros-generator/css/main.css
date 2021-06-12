@@ -1,0 +1,19 @@
+body{
+    background-color:lightsteelblue;
+}
+
+.entername {
+    margin-right: 15px;
+}
+
+.playerNameInput {
+    margin-right: 10px;
+}
+
+.player {
+    font-size: 1.5em;
+}
+
+.football {
+    font-size: 1.9em;
+}
