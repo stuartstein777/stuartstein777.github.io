@@ -140,8 +140,8 @@
 (defn -main [& _]
   (let [stats      (load-json-file)
         input-type (get-type-of-input)]
-    (spit  #_"//home//stuart//Source//stuartstein777.github.io//fitness//daily.json"
-           "debug-daily.json"
+    (spit  "//home//stuart//Source//stuartstein777.github.io//fitness//daily.json"
+           #_"debug-daily.json"
            (cond (= input-type :stairs)
                  (-> (update stats :days conj (todays-stats))
                      (json/generate-string {:date-format "yyyy-MM-dd"}))
