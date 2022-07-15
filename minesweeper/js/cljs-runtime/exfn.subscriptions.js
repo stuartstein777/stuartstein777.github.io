@@ -22,5 +22,14 @@ return (db.cljs$core$IFn$_invoke$arity$1 ? db.cljs$core$IFn$_invoke$arity$1(new 
 re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$variadic(new cljs.core.Keyword(null,"game-won?","game-won?",-1933899835),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([(function (db,_){
 return (db.cljs$core$IFn$_invoke$arity$1 ? db.cljs$core$IFn$_invoke$arity$1(new cljs.core.Keyword(null,"game-won?","game-won?",-1933899835)) : db.call(null,new cljs.core.Keyword(null,"game-won?","game-won?",-1933899835)));
 })], 0));
+re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$variadic(new cljs.core.Keyword(null,"time","time",1385887882),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([(function (db,_){
+return (db.cljs$core$IFn$_invoke$arity$1 ? db.cljs$core$IFn$_invoke$arity$1(new cljs.core.Keyword(null,"time","time",1385887882)) : db.call(null,new cljs.core.Keyword(null,"time","time",1385887882)));
+})], 0));
+re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$variadic(new cljs.core.Keyword(null,"ticking?","ticking?",523217754),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([(function (db,_){
+return (db.cljs$core$IFn$_invoke$arity$1 ? db.cljs$core$IFn$_invoke$arity$1(new cljs.core.Keyword(null,"ticking?","ticking?",523217754)) : db.call(null,new cljs.core.Keyword(null,"ticking?","ticking?",523217754)));
+})], 0));
+re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$variadic(new cljs.core.Keyword(null,"started?","started?",-1301062863),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([(function (db,_){
+return (db.cljs$core$IFn$_invoke$arity$1 ? db.cljs$core$IFn$_invoke$arity$1(new cljs.core.Keyword(null,"started?","started?",-1301062863)) : db.call(null,new cljs.core.Keyword(null,"started?","started?",-1301062863)));
+})], 0));
 
 //# sourceMappingURL=exfn.subscriptions.js.map
