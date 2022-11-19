@@ -158,6 +158,14 @@ body{
     animation-iteration-count: 1;
 }
 
+.invalid-word-error[data-lost=true] {
+    background-color: black;
+    color: white;
+    visibility: visible;
+    border: 1px solid grey;
+}
+
+
 @keyframes show-error {
     0%, 99%{
         visibility: visible;
