@@ -18,15 +18,15 @@ var y__4218__auto__ = (5);
 return ((x__4217__auto__ < y__4218__auto__) ? x__4217__auto__ : y__4218__auto__);
 });
 exfn.events.valid_key_QMARK_ = (function exfn$events$valid_key_QMARK_(key){
-var fexpr__29946 = cljs.core.set("ABCDEFGHJIKLMNOPQRSTUVWXYZ");
-return (fexpr__29946.cljs$core$IFn$_invoke$arity$1 ? fexpr__29946.cljs$core$IFn$_invoke$arity$1(key) : fexpr__29946.call(null,key));
+var fexpr__29732 = cljs.core.set("ABCDEFGHJIKLMNOPQRSTUVWXYZ");
+return (fexpr__29732.cljs$core$IFn$_invoke$arity$1 ? fexpr__29732.cljs$core$IFn$_invoke$arity$1(key) : fexpr__29732.call(null,key));
 });
-exfn.events.set_game_over = (function exfn$events$set_game_over(p__29947,guess){
-var map__29948 = p__29947;
-var map__29948__$1 = (((((!((map__29948 == null))))?(((((map__29948.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__29948.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__29948):map__29948);
-var db = map__29948__$1;
-var word = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__29948__$1,new cljs.core.Keyword(null,"word","word",-420123725));
-var current_row = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__29948__$1,new cljs.core.Keyword(null,"current-row","current-row",-1645608308));
+exfn.events.set_game_over = (function exfn$events$set_game_over(p__29733,guess){
+var map__29734 = p__29733;
+var map__29734__$1 = (((((!((map__29734 == null))))?(((((map__29734.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__29734.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__29734):map__29734);
+var db = map__29734__$1;
+var word = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__29734__$1,new cljs.core.Keyword(null,"word","word",-420123725));
+var current_row = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__29734__$1,new cljs.core.Keyword(null,"current-row","current-row",-1645608308));
 if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(word,guess)){
 return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(db,new cljs.core.Keyword(null,"game-state","game-state",935682735),new cljs.core.Keyword(null,"won","won",910394405));
 } else {
@@ -38,31 +38,31 @@ return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(db,new cljs.core.Keyword(nu
 }
 }
 });
-exfn.events.process_key = (function exfn$events$process_key(p__29952,key){
-var map__29953 = p__29952;
-var map__29953__$1 = (((((!((map__29953 == null))))?(((((map__29953.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__29953.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__29953):map__29953);
-var db = map__29953__$1;
-var guesses = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__29953__$1,new cljs.core.Keyword(null,"guesses","guesses",272840547));
-var current_row = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__29953__$1,new cljs.core.Keyword(null,"current-row","current-row",-1645608308));
-var current_col = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__29953__$1,new cljs.core.Keyword(null,"current-col","current-col",90922695));
-var guessed_letters = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__29953__$1,new cljs.core.Keyword(null,"guessed-letters","guessed-letters",-1546175579));
-var game_state = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__29953__$1,new cljs.core.Keyword(null,"game-state","game-state",935682735));
-var pred__29955 = cljs.core._EQ_;
-var expr__29956 = key;
-if(cljs.core.truth_((pred__29955.cljs$core$IFn$_invoke$arity$2 ? pred__29955.cljs$core$IFn$_invoke$arity$2("DEL",expr__29956) : pred__29955.call(null,"DEL",expr__29956)))){
+exfn.events.process_key = (function exfn$events$process_key(p__29738,key){
+var map__29739 = p__29738;
+var map__29739__$1 = (((((!((map__29739 == null))))?(((((map__29739.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__29739.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__29739):map__29739);
+var db = map__29739__$1;
+var guesses = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__29739__$1,new cljs.core.Keyword(null,"guesses","guesses",272840547));
+var current_row = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__29739__$1,new cljs.core.Keyword(null,"current-row","current-row",-1645608308));
+var current_col = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__29739__$1,new cljs.core.Keyword(null,"current-col","current-col",90922695));
+var guessed_letters = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__29739__$1,new cljs.core.Keyword(null,"guessed-letters","guessed-letters",-1546175579));
+var game_state = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__29739__$1,new cljs.core.Keyword(null,"game-state","game-state",935682735));
+var pred__29741 = cljs.core._EQ_;
+var expr__29742 = key;
+if(cljs.core.truth_((pred__29741.cljs$core$IFn$_invoke$arity$2 ? pred__29741.cljs$core$IFn$_invoke$arity$2("DEL",expr__29742) : pred__29741.call(null,"DEL",expr__29742)))){
 if((current_col >= (1))){
-return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(cljs.core.update.cljs$core$IFn$_invoke$arity$3(cljs.core.update.cljs$core$IFn$_invoke$arity$5(db,new cljs.core.Keyword(null,"guesses","guesses",272840547),cljs.core.assoc_in,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [current_row,current_col], null),""),new cljs.core.Keyword(null,"current-col","current-col",90922695),(function (p1__29950_SHARP_){
-return exfn.events.clamp((p1__29950_SHARP_ - (1)));
+return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(cljs.core.update.cljs$core$IFn$_invoke$arity$3(cljs.core.update.cljs$core$IFn$_invoke$arity$5(db,new cljs.core.Keyword(null,"guesses","guesses",272840547),cljs.core.assoc_in,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [current_row,current_col], null),""),new cljs.core.Keyword(null,"current-col","current-col",90922695),(function (p1__29736_SHARP_){
+return exfn.events.clamp((p1__29736_SHARP_ - (1)));
 })),new cljs.core.Keyword(null,"error","error",-978969032),false);
 } else {
 return db;
 }
 } else {
-if(cljs.core.truth_((pred__29955.cljs$core$IFn$_invoke$arity$2 ? pred__29955.cljs$core$IFn$_invoke$arity$2("ENTER",expr__29956) : pred__29955.call(null,"ENTER",expr__29956)))){
+if(cljs.core.truth_((pred__29741.cljs$core$IFn$_invoke$arity$2 ? pred__29741.cljs$core$IFn$_invoke$arity$2("ENTER",expr__29742) : pred__29741.call(null,"ENTER",expr__29742)))){
 if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2((5),current_col)){
 var guess = cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.str,cljs.core.vals(cljs.core.get_in.cljs$core$IFn$_invoke$arity$2(guesses,new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [current_row], null))));
-if(cljs.core.truth_((function (){var G__29958 = clojure.string.lower_case(guess);
-return (exfn.words.words.cljs$core$IFn$_invoke$arity$1 ? exfn.words.words.cljs$core$IFn$_invoke$arity$1(G__29958) : exfn.words.words.call(null,G__29958));
+if(cljs.core.truth_((function (){var G__29744 = clojure.string.lower_case(guess);
+return (exfn.words.words.cljs$core$IFn$_invoke$arity$1 ? exfn.words.words.cljs$core$IFn$_invoke$arity$1(G__29744) : exfn.words.words.call(null,G__29744));
 })())){
 return exfn.events.set_game_over(cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(cljs.core.update.cljs$core$IFn$_invoke$arity$3(cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(db,new cljs.core.Keyword(null,"error","error",-978969032),false),new cljs.core.Keyword(null,"current-row","current-row",-1645608308),cljs.core.inc),new cljs.core.Keyword(null,"guessed-letters","guessed-letters",-1546175579),clojure.set.union.cljs$core$IFn$_invoke$arity$2(guessed_letters,cljs.core.set(guess))),new cljs.core.Keyword(null,"current-col","current-col",90922695),(0)),guess);
 } else {
@@ -79,8 +79,8 @@ return cljs.core.not_EQ_.cljs$core$IFn$_invoke$arity$2(current_col,(5));
 return and__4115__auto__;
 }
 })():false))){
-return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(cljs.core.update.cljs$core$IFn$_invoke$arity$3(cljs.core.update.cljs$core$IFn$_invoke$arity$5(db,new cljs.core.Keyword(null,"guesses","guesses",272840547),cljs.core.assoc_in,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [current_row,(current_col + (1))], null),key),new cljs.core.Keyword(null,"current-col","current-col",90922695),(function (p1__29951_SHARP_){
-return exfn.events.clamp((p1__29951_SHARP_ + (1)));
+return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(cljs.core.update.cljs$core$IFn$_invoke$arity$3(cljs.core.update.cljs$core$IFn$_invoke$arity$5(db,new cljs.core.Keyword(null,"guesses","guesses",272840547),cljs.core.assoc_in,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [current_row,(current_col + (1))], null),key),new cljs.core.Keyword(null,"current-col","current-col",90922695),(function (p1__29737_SHARP_){
+return exfn.events.clamp((p1__29737_SHARP_ + (1)));
 })),new cljs.core.Keyword(null,"error","error",-978969032),false);
 } else {
 return db;
@@ -88,20 +88,20 @@ return db;
 }
 }
 });
-re_frame.core.reg_event_db.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"clicked","clicked",114423720),(function (db,p__29959){
-var vec__29960 = p__29959;
-var _ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__29960,(0),null);
-var key = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__29960,(1),null);
+re_frame.core.reg_event_db.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"clicked","clicked",114423720),(function (db,p__29745){
+var vec__29746 = p__29745;
+var _ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__29746,(0),null);
+var key = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__29746,(1),null);
 return exfn.events.process_key(db,key);
 }));
-re_frame.core.reg_event_db.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"key-pressed","key-pressed",-757100364),(function (db,p__29963){
-var vec__29964 = p__29963;
-var _ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__29964,(0),null);
-var key = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__29964,(1),null);
-return exfn.events.process_key(db,(function (){var G__29968 = key;
-var G__29969 = cljs.core.char$(key);
-var fexpr__29967 = new cljs.core.PersistentArrayMap(null, 2, [(13),"ENTER",(8),"DEL"], null);
-return (fexpr__29967.cljs$core$IFn$_invoke$arity$2 ? fexpr__29967.cljs$core$IFn$_invoke$arity$2(G__29968,G__29969) : fexpr__29967.call(null,G__29968,G__29969));
+re_frame.core.reg_event_db.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"key-pressed","key-pressed",-757100364),(function (db,p__29749){
+var vec__29750 = p__29749;
+var _ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__29750,(0),null);
+var key = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__29750,(1),null);
+return exfn.events.process_key(db,(function (){var G__29754 = key;
+var G__29755 = cljs.core.char$(key);
+var fexpr__29753 = new cljs.core.PersistentArrayMap(null, 2, [(13),"ENTER",(8),"DEL"], null);
+return (fexpr__29753.cljs$core$IFn$_invoke$arity$2 ? fexpr__29753.cljs$core$IFn$_invoke$arity$2(G__29754,G__29755) : fexpr__29753.call(null,G__29754,G__29755));
 })());
 }));
 
