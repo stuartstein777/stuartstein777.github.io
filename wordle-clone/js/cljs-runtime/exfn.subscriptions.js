@@ -25,5 +25,11 @@ return (db.cljs$core$IFn$_invoke$arity$1 ? db.cljs$core$IFn$_invoke$arity$1(new 
 re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$variadic(new cljs.core.Keyword(null,"correct-letters","correct-letters",533359080),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([(function (db,_){
 return (db.cljs$core$IFn$_invoke$arity$1 ? db.cljs$core$IFn$_invoke$arity$1(new cljs.core.Keyword(null,"correct-letters","correct-letters",533359080)) : db.call(null,new cljs.core.Keyword(null,"correct-letters","correct-letters",533359080)));
 })], 0));
+re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$variadic(new cljs.core.Keyword(null,"stats","stats",-85643011),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([(function (db,_){
+return (db.cljs$core$IFn$_invoke$arity$1 ? db.cljs$core$IFn$_invoke$arity$1(new cljs.core.Keyword(null,"stats","stats",-85643011)) : db.call(null,new cljs.core.Keyword(null,"stats","stats",-85643011)));
+})], 0));
+re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$variadic(new cljs.core.Keyword(null,"stats-visible","stats-visible",536430735),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([(function (db,_){
+return (db.cljs$core$IFn$_invoke$arity$1 ? db.cljs$core$IFn$_invoke$arity$1(new cljs.core.Keyword(null,"stats-visible","stats-visible",536430735)) : db.call(null,new cljs.core.Keyword(null,"stats-visible","stats-visible",536430735)));
+})], 0));
 
 //# sourceMappingURL=exfn.subscriptions.js.map
