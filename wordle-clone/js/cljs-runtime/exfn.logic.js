@@ -1,24 +1,11 @@
 goog.provide('exfn.logic');
 goog.require('cljs.core');
 goog.require('clojure.set');
+goog.require('clojure.string');
+goog.require('cljs.reader');
 exfn.logic.guess_distribution_histogram = (function exfn$logic$guess_distribution_histogram(guesses){
 var max = cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.max,cljs.core.vals(guesses));
 return new cljs.core.PersistentArrayMap(null, 6, [(1),(((250) * ((guesses.cljs$core$IFn$_invoke$arity$1 ? guesses.cljs$core$IFn$_invoke$arity$1((1)) : guesses.call(null,(1))) / max)) | (0)),(2),(((250) * ((guesses.cljs$core$IFn$_invoke$arity$1 ? guesses.cljs$core$IFn$_invoke$arity$1((2)) : guesses.call(null,(2))) / max)) | (0)),(3),(((250) * ((guesses.cljs$core$IFn$_invoke$arity$1 ? guesses.cljs$core$IFn$_invoke$arity$1((3)) : guesses.call(null,(3))) / max)) | (0)),(4),(((250) * ((guesses.cljs$core$IFn$_invoke$arity$1 ? guesses.cljs$core$IFn$_invoke$arity$1((4)) : guesses.call(null,(4))) / max)) | (0)),(5),(((250) * ((guesses.cljs$core$IFn$_invoke$arity$1 ? guesses.cljs$core$IFn$_invoke$arity$1((5)) : guesses.call(null,(5))) / max)) | (0)),(6),(((250) * ((guesses.cljs$core$IFn$_invoke$arity$1 ? guesses.cljs$core$IFn$_invoke$arity$1((6)) : guesses.call(null,(6))) / max)) | (0))], null);
-});
-exfn.logic.generate_cookie = (function exfn$logic$generate_cookie(stats_and_guesses){
-return ["guess-1=",cljs.core.str.cljs$core$IFn$_invoke$arity$1(cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.str,cljs.core.vals((function (){var fexpr__29978 = new cljs.core.Keyword(null,"guesses","guesses",272840547).cljs$core$IFn$_invoke$arity$1(stats_and_guesses);
-return (fexpr__29978.cljs$core$IFn$_invoke$arity$1 ? fexpr__29978.cljs$core$IFn$_invoke$arity$1((1)) : fexpr__29978.call(null,(1)));
-})()))),";","guess-2=",cljs.core.str.cljs$core$IFn$_invoke$arity$1(cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.str,cljs.core.vals((function (){var fexpr__29979 = new cljs.core.Keyword(null,"guesses","guesses",272840547).cljs$core$IFn$_invoke$arity$1(stats_and_guesses);
-return (fexpr__29979.cljs$core$IFn$_invoke$arity$1 ? fexpr__29979.cljs$core$IFn$_invoke$arity$1((2)) : fexpr__29979.call(null,(2)));
-})()))),";","guess-3=",cljs.core.str.cljs$core$IFn$_invoke$arity$1(cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.str,cljs.core.vals((function (){var fexpr__29980 = new cljs.core.Keyword(null,"guesses","guesses",272840547).cljs$core$IFn$_invoke$arity$1(stats_and_guesses);
-return (fexpr__29980.cljs$core$IFn$_invoke$arity$1 ? fexpr__29980.cljs$core$IFn$_invoke$arity$1((3)) : fexpr__29980.call(null,(3)));
-})()))),";","guess-4=",cljs.core.str.cljs$core$IFn$_invoke$arity$1(cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.str,cljs.core.vals((function (){var fexpr__29981 = new cljs.core.Keyword(null,"guesses","guesses",272840547).cljs$core$IFn$_invoke$arity$1(stats_and_guesses);
-return (fexpr__29981.cljs$core$IFn$_invoke$arity$1 ? fexpr__29981.cljs$core$IFn$_invoke$arity$1((4)) : fexpr__29981.call(null,(4)));
-})()))),";","guess-5=",cljs.core.str.cljs$core$IFn$_invoke$arity$1(cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.str,cljs.core.vals((function (){var fexpr__29982 = new cljs.core.Keyword(null,"guesses","guesses",272840547).cljs$core$IFn$_invoke$arity$1(stats_and_guesses);
-return (fexpr__29982.cljs$core$IFn$_invoke$arity$1 ? fexpr__29982.cljs$core$IFn$_invoke$arity$1((5)) : fexpr__29982.call(null,(5)));
-})()))),";","guess-6=",cljs.core.str.cljs$core$IFn$_invoke$arity$1(cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.str,cljs.core.vals((function (){var fexpr__29983 = new cljs.core.Keyword(null,"guesses","guesses",272840547).cljs$core$IFn$_invoke$arity$1(stats_and_guesses);
-return (fexpr__29983.cljs$core$IFn$_invoke$arity$1 ? fexpr__29983.cljs$core$IFn$_invoke$arity$1((6)) : fexpr__29983.call(null,(6)));
-})()))),";","current-streak=",cljs.core.str.cljs$core$IFn$_invoke$arity$1(new cljs.core.Keyword(null,"current-streak","current-streak",-1065385628).cljs$core$IFn$_invoke$arity$1(new cljs.core.Keyword(null,"stats","stats",-85643011).cljs$core$IFn$_invoke$arity$1(stats_and_guesses))),"max-streak=",cljs.core.str.cljs$core$IFn$_invoke$arity$1(new cljs.core.Keyword(null,"max-streak","max-streak",1027422876).cljs$core$IFn$_invoke$arity$1(new cljs.core.Keyword(null,"stats","stats",-85643011).cljs$core$IFn$_invoke$arity$1(stats_and_guesses))),"wins=",cljs.core.str.cljs$core$IFn$_invoke$arity$1(new cljs.core.Keyword(null,"wins","wins",1850756412).cljs$core$IFn$_invoke$arity$1(new cljs.core.Keyword(null,"stats","stats",-85643011).cljs$core$IFn$_invoke$arity$1(stats_and_guesses))),"played=",cljs.core.str.cljs$core$IFn$_invoke$arity$1(new cljs.core.Keyword(null,"wins","wins",1850756412).cljs$core$IFn$_invoke$arity$1(new cljs.core.Keyword(null,"stats","stats",-85643011).cljs$core$IFn$_invoke$arity$1(stats_and_guesses))),"solves=",cljs.core.str.cljs$core$IFn$_invoke$arity$1(str.join(",",cljs.core.vals(new cljs.core.Keyword(null,"solves","solves",-1204589400).cljs$core$IFn$_invoke$arity$1(new cljs.core.Keyword(null,"stats","stats",-85643011).cljs$core$IFn$_invoke$arity$1(stats_and_guesses))))),"expires=Fri, 31 Dec 2100 12:00:00 UTC; path=/"].join('');
 });
 
 //# sourceMappingURL=exfn.logic.js.map
