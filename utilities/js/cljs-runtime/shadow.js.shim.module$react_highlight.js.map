@@ -1,0 +1,9 @@
+{
+"version":3,
+"file":"shadow.js.shim.module$react_highlight.js",
+"lineCount":5,
+"mappings":"AAAAA,IAAKC,CAAAA,OAAL,CAAa,uCAAb,CAAA;AACAD,IAAKC,CAAAA,OAAL,CAAa,8CAAb,CAAA;AACAC,MAAOC,CAAAA,EAAGC,CAAAA,IAAKC,CAAAA,sBAAf,GAAwCC,aAAA,CAAc,oBAAd,CAAxC;AACAC,4CAA6CC,CAAAA,OAA7C,GAAuDN,MAAOC,CAAAA,EAAGC,CAAAA,IAAKC,CAAAA,sBAAtE;;",
+"sources":["shadow.js.shim.module$react_highlight.js"],
+"sourcesContent":["goog.provide(\"shadow.js.shim.module$react_highlight\");\ngoog.provide(\"module$shadow_js_shim_module$react_highlight\");\nshadow.js.shim.module$react_highlight = shadow$bridge(\"react-highlight.js\");\nmodule$shadow_js_shim_module$react_highlight.default = shadow.js.shim.module$react_highlight;\n"],
+"names":["goog","provide","shadow","js","shim","module$react_highlight","shadow$bridge","module$shadow_js_shim_module$react_highlight","default"]
+}

@@ -1,0 +1,1 @@
+{"version":3,"sources":["exfn/total_income/subscriptions.cljs"],"mappings":";AAGA,2DAAA,3DAACA,sLAEA,WAAKC,GAAGC;AAAR,AACE,OAAA,kFAAA,AAAA,yFAAID","names":["re_frame.core.reg_sub","db","_"],"sourcesContent":["(ns exfn.total-income.subscriptions\n  (:require [re-frame.core :as rf]))\n\n(rf/reg-sub\n :incomes-report\n (fn [db _]\n   (-> db :incomes :grid)))"]}

@@ -1,0 +1,9 @@
+{
+"version":3,
+"file":"shadow.js.shim.module$react_date_picker.js",
+"lineCount":5,
+"mappings":"AAAAA,IAAKC,CAAAA,OAAL,CAAa,yCAAb,CAAA;AACAD,IAAKC,CAAAA,OAAL,CAAa,gDAAb,CAAA;AACAC,MAAOC,CAAAA,EAAGC,CAAAA,IAAKC,CAAAA,wBAAf,GAA0CC,aAAA,CAAc,mBAAd,CAA1C;AACAC,8CAA+CC,CAAAA,OAA/C,GAAyDN,MAAOC,CAAAA,EAAGC,CAAAA,IAAKC,CAAAA,wBAAxE;;",
+"sources":["shadow.js.shim.module$react_date_picker.js"],
+"sourcesContent":["goog.provide(\"shadow.js.shim.module$react_date_picker\");\ngoog.provide(\"module$shadow_js_shim_module$react_date_picker\");\nshadow.js.shim.module$react_date_picker = shadow$bridge(\"react-date-picker\");\nmodule$shadow_js_shim_module$react_date_picker.default = shadow.js.shim.module$react_date_picker;\n"],
+"names":["goog","provide","shadow","js","shim","module$react_date_picker","shadow$bridge","module$shadow_js_shim_module$react_date_picker","default"]
+}
