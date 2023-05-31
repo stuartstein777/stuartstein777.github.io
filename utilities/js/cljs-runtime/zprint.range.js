@@ -95,12 +95,12 @@ return next_index;
 return current_index;
 }
 } else {
-var G__13362 = (current_index + row_or_direction__$1);
-var G__13363 = current_index;
-var G__13364 = (tries + (1));
-current_index = G__13362;
-previous_index = G__13363;
-tries = G__13364;
+var G__13384 = (current_index + row_or_direction__$1);
+var G__13385 = current_index;
+var G__13386 = (tries + (1));
+current_index = G__13384;
+previous_index = G__13385;
+tries = G__13386;
 continue;
 }
 
@@ -145,8 +145,8 @@ return n;
  *   removed from it (or this routine would do that for you).
  */
 zprint.range.find_row = (function zprint$range$find_row(var_args){
-var G__13320 = arguments.length;
-switch (G__13320) {
+var G__13300 = arguments.length;
+switch (G__13300) {
 case 4:
 return zprint.range.find_row.cljs$core$IFn$_invoke$arity$4((arguments[(0)]),(arguments[(1)]),(arguments[(2)]),(arguments[(3)]));
 
@@ -182,16 +182,16 @@ return maybe_index;
 if(((cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(maybe_index,new cljs.core.Keyword(null,"before-beginning","before-beginning",485705715))) || (cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(maybe_index,new cljs.core.Keyword(null,"beyond-end","beyond-end",487000285))))){
 return maybe_index;
 } else {
-var G__13369 = (function (){var G__13340 = row_vec_index;
-var G__13341 = ((zprint.range.abs((row_vec_index - previous_index)) / (2)) | (0));
-var fexpr__13339 = ((cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(maybe_index,new cljs.core.Keyword(null,"before","before",-1633692388)))?cljs.core._:cljs.core._PLUS_);
-return (fexpr__13339.cljs$core$IFn$_invoke$arity$2 ? fexpr__13339.cljs$core$IFn$_invoke$arity$2(G__13340,G__13341) : fexpr__13339.call(null,G__13340,G__13341));
+var G__13398 = (function (){var G__13330 = row_vec_index;
+var G__13331 = ((zprint.range.abs((row_vec_index - previous_index)) / (2)) | (0));
+var fexpr__13329 = ((cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(maybe_index,new cljs.core.Keyword(null,"before","before",-1633692388)))?cljs.core._:cljs.core._PLUS_);
+return (fexpr__13329.cljs$core$IFn$_invoke$arity$2 ? fexpr__13329.cljs$core$IFn$_invoke$arity$2(G__13330,G__13331) : fexpr__13329.call(null,G__13330,G__13331));
 })();
-var G__13370 = row_vec_index;
-var G__13371 = (tries + (1));
-row_vec_index = G__13369;
-previous_index = G__13370;
-tries = G__13371;
+var G__13399 = row_vec_index;
+var G__13400 = (tries + (1));
+row_vec_index = G__13398;
+previous_index = G__13399;
+tries = G__13400;
 continue;
 
 }
@@ -220,8 +220,8 @@ var line = cljs.core.nth.cljs$core$IFn$_invoke$arity$2(line_vec,idx);
 if((((!(cljs.core.empty_QMARK_(clojure.string.trim(line))))) || ((idx >= max_idx)))){
 return idx;
 } else {
-var G__13376 = (idx + (1));
-idx = G__13376;
+var G__13407 = (idx + (1));
+idx = G__13407;
 continue;
 }
 break;
@@ -242,8 +242,8 @@ return idx;
 if((idx === (0))){
 return (-1);
 } else {
-var G__13377 = (idx - (1));
-idx = G__13377;
+var G__13409 = (idx - (1));
+idx = G__13409;
 continue;
 
 }

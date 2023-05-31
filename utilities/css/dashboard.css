@@ -287,6 +287,18 @@ monthly breakdown
   margin: 5px;
 }
 
+.is-prime-btn {
+  width: 150px;
+  padding: 5px;
+  margin: 5px;
+}
+
+.is-prime-value-textbox {
+  width: 150px;
+  padding: 5px;
+  margin: 5px;
+}
+
 .ascii-table {
   width: 25%;
 }
