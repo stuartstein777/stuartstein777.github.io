@@ -17,5 +17,14 @@ return new cljs.core.Keyword("math","is-prime-value","math/is-prime-value",-1384
 re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$variadic(new cljs.core.Keyword("math","is-prime-result","math/is-prime-result",-1788587587),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([(function (db,_){
 return new cljs.core.Keyword("math","is-prime-result","math/is-prime-result",-1788587587).cljs$core$IFn$_invoke$arity$1(db);
 })], 0));
+re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$variadic(new cljs.core.Keyword("math","is-pentagonal-value","math/is-pentagonal-value",-1905329688),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([(function (db,_){
+return new cljs.core.Keyword("math","is-pentagonal-value","math/is-pentagonal-value",-1905329688).cljs$core$IFn$_invoke$arity$1(db);
+})], 0));
+re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$variadic(new cljs.core.Keyword("math","is-pentagonal-result","math/is-pentagonal-result",-2099005836),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([(function (db,_){
+return new cljs.core.Keyword("math","is-pentagonal-result","math/is-pentagonal-result",-2099005836).cljs$core$IFn$_invoke$arity$1(db);
+})], 0));
+re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$variadic(new cljs.core.Keyword("math","is-generalised-pentagonal-result","math/is-generalised-pentagonal-result",-1123436362),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([(function (db,_){
+return new cljs.core.Keyword("math","is-generalised-pentagonal-result","math/is-generalised-pentagonal-result",-1123436362).cljs$core$IFn$_invoke$arity$1(db);
+})], 0));
 
 //# sourceMappingURL=exfn.maths.subscriptions.js.map

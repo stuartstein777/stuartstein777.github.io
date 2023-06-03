@@ -4,10 +4,10 @@ while(true){
 if((b === (0))){
 return a;
 } else {
-var G__15392 = b;
-var G__15393 = cljs.core.mod(a,b);
-a = G__15392;
-b = G__15393;
+var G__15172 = b;
+var G__15173 = cljs.core.mod(a,b);
+a = G__15172;
+b = G__15173;
 continue;
 }
 break;
@@ -39,14 +39,20 @@ return true;
 if((cljs.core.mod(n,i) === (0))){
 return false;
 } else {
-var G__15394 = (i + (1));
-i = G__15394;
+var G__15174 = (i + (1));
+i = G__15174;
 continue;
 }
 }
 break;
 }
 }
+});
+exfn.maths.logic.is_pentagonal_QMARK_ = (function exfn$maths$logic$is_pentagonal_QMARK_(n){
+return (cljs.core.rem(((Math.sqrt(((n * (24)) + (1))) + (1)) / (6)),(1)) === (0));
+});
+exfn.maths.logic.is_generalised_pentagonal_QMARK_ = (function exfn$maths$logic$is_generalised_pentagonal_QMARK_(n){
+return (cljs.core.rem(Math.sqrt(((1) + ((24) * n))),(1)) === (0));
 });
 
 //# sourceMappingURL=exfn.maths.logic.js.map
