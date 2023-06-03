@@ -4,10 +4,10 @@ while(true){
 if((b === (0))){
 return a;
 } else {
-var G__15172 = b;
-var G__15173 = cljs.core.mod(a,b);
-a = G__15172;
-b = G__15173;
+var G__15212 = b;
+var G__15213 = cljs.core.mod(a,b);
+a = G__15212;
+b = G__15213;
 continue;
 }
 break;
@@ -39,8 +39,8 @@ return true;
 if((cljs.core.mod(n,i) === (0))){
 return false;
 } else {
-var G__15174 = (i + (1));
-i = G__15174;
+var G__15214 = (i + (1));
+i = G__15214;
 continue;
 }
 }
@@ -52,7 +52,13 @@ exfn.maths.logic.is_pentagonal_QMARK_ = (function exfn$maths$logic$is_pentagonal
 return (cljs.core.rem(((Math.sqrt(((n * (24)) + (1))) + (1)) / (6)),(1)) === (0));
 });
 exfn.maths.logic.is_generalised_pentagonal_QMARK_ = (function exfn$maths$logic$is_generalised_pentagonal_QMARK_(n){
+cljs.core.prn.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([n], 0));
+
+if((((n == null)) || ((Number(n) === (0))))){
+return false;
+} else {
 return (cljs.core.rem(Math.sqrt(((1) + ((24) * n))),(1)) === (0));
+}
 });
 
 //# sourceMappingURL=exfn.maths.logic.js.map
