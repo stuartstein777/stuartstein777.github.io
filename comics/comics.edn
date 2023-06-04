@@ -1,0 +1,318 @@
+[{:name "Batman Vol 1. Court of Owls"
+  :series "New 52 Batman"
+  :author "Scott Snyder"
+  :artist "Greg Capullo"
+  :vol 1
+  :cover "images/court-of-owls.jpg"
+  :collects "Batman #1-7"}
+ {:name "Batman: Night of the Owls"
+  :series "New 52 Batman"
+  :author "Scott Snyder"
+  :artist "Greg Capullo"
+  :vol 0
+  :cover "images/night-of-the-owls.jpg"
+  :collects " Batman #8-11, Nightwing #8-9, All Star Western #9, Catwoman #9, Batgirl #9, Batman: Dark Knight #9, Batman and Robin #9, Birds of Prey #9, Red Hood and the Outlaws #9"}
+ {:name "Batman Vol 2. City of Owls"
+  :series "New 52 Batman"
+  :author "Scott Snyder"
+  :artist "Greg Capullo"
+  :vol 2
+  :cover "images/city-of-owls.jpg"
+  :collects "BATMAN #8-12,BATMAN ANNUAL #1"}
+ {:name "Batman Vol 3. Death of the Family"
+  :series "New 52 Batman"
+  :author "Scott Snyder"
+  :artist "Greg Capullo"
+  :vol 3
+  :cover "images/death-of-the-family.jpg"
+  :collects "BATMAN #13-17"}
+ {:name "Batman Vol 4. Zero Year Secret City"
+  :series "New 52 Batman"
+  :author "Scott Snyder"
+  :artist "Greg Capullo"
+  :vol 4
+  :cover "images/zero-year-secret-city.jpg"
+  :collects "Batman #21-24"}
+ {:name "Batman Vol 5. Zero Year Dark City"
+  :series "New 52 Batman"
+  :author "Scott Snyder"
+  :artist "Greg Capullo"
+  :vol 5
+  :cover "images/zero-year-dark-city.jpg"
+  :collects "Batman #25-27,Batman #29-33"}
+ {:name "Batman Vol 6. Graveyard Shift"
+  :series "New 52 Batman"
+  :author "Scott Snyder"
+  :artist "Greg Capullo"
+  :vol 6
+  :cover "images/graveyard-shift.jpg"
+  :collects "Batman #0, Batman #18-20, Batman #28, Batman #34, Batman Annual #2"}
+ {:name "Batman Vol 7. Endgame"
+  :series "New 52 Batman"
+  :author "Scott Snyder"
+  :artist "Greg Capullo"
+  :vol 7
+  :cover "images/endgame.jpg"
+  :collects "Batman #35-40"}
+ {:name "Batman Vol 8. Superheavy"
+  :series "New 52 Batman"
+  :author "Scott Snyder"
+  :artist "Greg Capullo"
+  :vol 8
+  :cover "images/superheavy.jpg"
+  :collects "Batman #41-45, DC Sneak Peak: Batman #1"}
+ {:name "Batman Vol 9. Bloom"
+  :series "New 52 Batman"
+  :author "Scott Snyder"
+  :artist "Greg Capullo"
+  :vol 9
+  :cover "images/bloom.jpg"
+  :collects "Batman #46-50, Detective Comics #27"}
+ {:name "Batman Damned"
+  :series nil
+  :author "Brian Azzarello"
+  :artist "Lee Bermejo",
+  :vol -1
+  :cover "images/damned.jpg"}
+ {:name "Swamp Thing Vol 1. Raise those Bones"
+  :series "New 52 Swamp Thing"
+  :author "Scott Synder"
+  :artist "Yanick Paquette"
+  :vol 1
+  :cover "images/raise-them-bones.jpg"
+  :collects "Swamp Thing #1-7"}
+ {:name "Swamp Thing Vol 2. Family Tree"
+  :series "New 52 Swamp Thing"
+  :author "Scott Synder"
+  :artist "Yanick Paquette"
+  :vol 2
+  :cover "images/swamp-thing-family-tree"
+  :collects "Swamp Thing #8-11, Swamp Thing Annual #1"}
+ {:name "The Joker: Death of the Family"
+  :series "New 52"
+  :author "Scott Snyder"
+  :artist "Greg Capullo"
+  :vol -1
+  :cover "images/joker-death-of-the-family.jpg"
+  :collects "CATWOMAN 13-14, BATGIRL 13-16, SUICIDE SQUAD 14-15, BATMAN AND ROBIN 15-16, NIGHTWING 15-16, DETECTIVE COMICS 15-16, RED HOOD AND THE OUTLAWS 15-16 and TEEN TITANS 15-16."}
+ {:name "Batman Earth One"
+  :series: nil
+  :author "Geoff Johns"
+  :artist "Gary Frank"
+  :vol -1
+  :cover "images/batman-earth-one.jpg"
+  :collects ""}
+ {:name "Batman: Night of the Monster Men"
+  :series "Batman Rebirth"
+  :author "Tom King"
+  :artist ""
+  :vol -1
+  :collects "Batman #7-8, Nightwing #5-6, Detective Comics #941-942"}
+ {:name "Batman: The Fall and the Fallen"
+  :series "Batman"
+  :author "Tom King"
+  :artist ""
+  :vol 11
+  :collects "Batman #70-74, Batman Secret Files #2"
+  :cover "images/batman-the-fall-and-the-fallen.jpg"}
+ {:name "Batman Knightmares"
+  :series "Batman"
+  :author "Tom King"
+  :artist ""
+  :vol 10
+  :collects "Batman #61-63, Batman #66-69"
+  :cover "images/batman-knightmares.jpeg"}
+ {:name "Batman The Tyrant Wing"
+  :series "Batman"
+  :author "Tom King"
+  :artist ""
+  :vol 9
+  :cover "images/batman-the-tyrant-wing.jpeg"
+  :collects "Batman #58-60, Batman Annual #3, Batman Secret Files #1"}
+ {:name "Batman Cold Days"
+  :series "Batman"
+  :author "Tom King"
+  :artist ""
+  :vol 8
+  :cover "images/batman-col-days.webp"
+  :collects "Batman #51-57"}
+ {:name "Batman The Wedding"
+  :vol 7
+  :series "Batman"
+  :author "Tom King"
+  :artist ""
+  :cover "images/batman-the-wedding.webp"
+  :collects "Batman #45-50, DC Nation #0"}
+ {:name "Batman Bride or Burglar?"
+  :vol 6
+  :series "Batman"
+  :author "Tom King"
+  :artist ""
+  :cover "images/batman-bride-or-burglar.jpg"
+  :collects "Batman #38-44"}
+ {:name "Batman The Rules of Engagement"
+  :vol 5
+  :series "Batman"
+  :author "Tom King"
+  :cover "images/batman-rules-of-engagement.jpg"
+  :collects "Batman #33-37, Batman Annual #2"}
+ {:name "Batman The War of Jokes and Riddles"
+  :vol 4
+  :series "Batman"
+  :author "Tom King"
+  :cover "images/batman-the-war-of-jokes-and-riddles.jpg"
+  :collects "Batman #25-32"}
+ {:name "Batman I Am Bane"
+  :vol 3
+  :series "Batman"
+  :author "Tom King"
+  :cover "images/batman-i-am-bane.jpg"
+  :collects "Batman #16-20, Batman #23-24, Batman Annual #1"}
+ {:name "Batman I Am Suicide"
+  :vol 2
+  :series "Batman"
+  :author "Tom King"
+  :cover "images/batman-i-am-suicide.jpg"
+  :collects "Batman #9-15"}
+ {:name "Batman I Am Gotham"
+  :vol 1
+  :series "Batman"
+  :author "Tom King"
+  :cover "images/batman-i-am-gotham.jpg"
+  :collects "Batman #1-6, Batman Rebirth #1"}
+ {:name "Injustice Gods Among Us Vol 1"
+  :vol 1
+  :series "Injustice"
+  :cover "images/injustice-vol-1.jpg"
+  :collects "Injustice Gods Among Us #1-6"}
+ {:name "Injustice Gods Among Us Vol 2"
+  :vol 2
+  :series "Injustice"
+  :cover "images/injustice-vol-2.jpg"
+  :collects "Injustice Gods Among Us #7-12"}
+ {:name "Batman Whatever Happened to the Caped Crusader"
+  :series nil
+  :vol nil
+  :cover "images/batman-whatever-happened-caped-crusader.jpg"
+  :collects "Secret Origins vol. 2 #36, Secret Origins Special #1, Batman vol. 1 #686, Detective Comics vol. 1 #853"}
+ {:name "Swamp Thing The Killing Field"
+  :vol 5
+  :series "New 52 Swamp Thing"
+  :cover "images/swamp-thing-the-killing-field.jpg"
+  :collects "Swamp Thing #24-27, Swamp Thing Annual #2"}
+ {:name "Swamp Thing Seeder"
+  :vol 4
+  :series "New 52 Swamp Thing"
+  :cover "images/swamp-thing-seeder.png"
+  :collects "Swamp Thing #19-23, Swamp Thing #23.1"}
+ {:name "Swamp Thing Rotworld: The Green Kingdom"
+  :vol 3
+  :series "New 52 Swamp Thing"
+  :cover "images/swamp-thing-rotworld.jpg"
+  :collects "Swamp Thing #12-18, Animal Man #12, Animal Man #17"}
+ {:name "Batman Legends of the Dark Knight Volume 2"
+  :vol 2
+  :series "Batman Legends of the Dark Knight"
+  :collects "Batman Legends of the Dark Knight #6-10"
+  :cover "images/batman-legends-dark-knight-2.jpg"}
+ {:name "Batman Incorporated Demon Star"
+  :vol 1
+  :series "New 52 Batman Incorporated"
+  :cover "images/batman-incorporated-vol-1.jpg"
+  :collects "Batman Incorporated #0-6"}
+ {:name "Batman Eternal Volume 1"
+  :vol 1
+  :series "Batman Eternal"
+  :cover "images/batman-incorporated-vol-1.jpg"
+  :collects "Batman Eternal #1-12"}
+ {:name "Nightwing Setting Son"
+  :vol 5
+  :series "New 52 Nightwing"
+  :cover "images/nightwing-setting-son.jpg"
+  :collects "Nightwing #25-30"}
+ {:name "Nightwing Second City"
+  :vol 4
+  :series "New 52 Nightwing"
+  :cover "images/nightwing-second-city.jpg"
+  :collects "Nightwing #19-24"}
+ {:name "Nightwing Death of the Family"
+  :vol 3
+  :series "New 52 Nightwing"
+  :cover "images/nightwing-death-of-the-family.jpg"
+  :collects "Nightwing #13-18, Batman #17"}
+ {:name "Nightwing Night of the Owls"
+  :vol 2
+  :series "New 52 Nightwing"
+  :cover "images/nightwing-night-of-owls.jpg"
+  :collects "Nightwing #8-12, Nightwing #0"}
+ {:name "Nightwing Traps and Trapezes"
+  :series "New 52 Nightwing"
+  :vol 1
+  :cover "images/nightwings-traps-and-trapezes.jpg"
+  :collects "Nightwing #1-7"}
+ {:name "Batman & Robin Born to Kill"
+  :series "New 52 Batman & Robin"
+  :vol 1
+  :cover "images/batman-and-robin-born-kill.jpg"
+  :collects "Batman & Robin #1-8"}
+ {:name "Batman The Dark Knight Clay"
+  :series "New 52 Batman The Dark Knight"
+  :vol 4
+  :cover "images/batman-dark-knight-clay.jpg"
+  :collects "Batman The Dark Knight #22-29"}
+ {:name "Batman The Dark Knight Mad"
+  :series "New 52 Batman The Dark Knight"
+  :vol 3
+  :cover "dark-knight-mad.jpg"
+  :collects "Batman The Dark Knight #16-21, Batman The Dark Knight Annual #1"}
+  {:name "Batman The Dark Knight Cycle of Violence"
+  :series "New 52 Batman The Dark Knight"
+  :vol 2
+  :cover "batman-cycle-of-violence.jpg"
+   :collects "Batman The Dark Knight #10-15, Batman The Dark Knight #0"}
+  {:name "Batman The Dark Knight Knight Terrors"
+  :series "New 52 Batman The Dark Knight"
+  :vol 1
+  :cover "batman-knight-terrors.jpg"
+  :collects "Batman The Dark Knight #1-9"}
+ {:name "Batman Detective Comics Icarus"
+  :vol 6
+  :series "New 52 Batman Detective Comics"
+  :cover "batman-detective-comics-icarus.jpg"
+  :collects "Batman Detective Comics #30-34, Batman Detective Comics Annual #1"}
+ {:name "Batman Detective Comics Gothtopia"
+  :vol 5
+  :series "New 52 Batman Detective Comics"
+  :cover "batman-detective-comics-gothtopia.jpg"
+  :collects "Batman Detective Comics #25-29"}
+ {:name "Batman Detective Comics The Wrath"
+  :vol 4
+  :series "New 52 Batman Detective Comics"
+  :cover "batman-detective-comics-wrath.jpg"
+  :collects "Batman Detective Comics #19-24, Batman Detective Comics Annual #1"}
+ {:name "Batman Detective Comics Emperor Penguin"
+  :vol 3
+  :series "New 52 Batman Detective Comics"
+  :cover "batman-detective-comics-emperor-penguin.jpg"
+  :collects "Batman Detective Comics #13-18"}
+ {:name "Batman Detective Comics Scare Tactics"
+  :vol 2
+  :series "New 52 Batman Detective Comics"
+  :cover "batman-detective-comics-scare-tactics.jpg"
+  :collects "Batman Detective Comics #8-12, Batman Detective Comics #0, Batman Detective Comics Annual #1"}
+ {:name "Batman Detective Comics Faces of Death"
+  :vol 1
+  :series "New 52 Batman Detective Comics"
+  :cover "batman-detective-comics-faces-death.jpg"
+  :collects "Batman Detective Comics #1-7"}
+ {:name "Batman/Superman Game Over"
+  :vol 1
+  :series "New 52 Batman/Superman"
+  :cover "batman-superman-game-over.jpg"
+  :collects "Batman/Superman #5-9, Batman/Superman Annual #1, Worlds Finest #20-21"}
+ {:name "Batman/Superman Cross World"
+  :vol 1
+  :series "New 52 Batman/Superman"
+  :cover "batman-superman-cross-world.jpg"
+  :collects "Batman/Superman #1-4, Justice League #23.1"}
+ ] 
