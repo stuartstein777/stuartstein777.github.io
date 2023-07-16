@@ -20,5 +20,8 @@ return new cljs.core.Keyword(null,"is-calculators-expanded","is-calculators-expa
 re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$variadic(new cljs.core.Keyword(null,"is-tables-expanded?","is-tables-expanded?",-1133277560),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([(function (db,_){
 return new cljs.core.Keyword(null,"is-tables-expanded","is-tables-expanded",1774379258).cljs$core$IFn$_invoke$arity$1(db);
 })], 0));
+re_frame.core.reg_sub.cljs$core$IFn$_invoke$arity$variadic(new cljs.core.Keyword(null,"is-utilities-expanded?","is-utilities-expanded?",295461359),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([(function (db,_){
+return new cljs.core.Keyword(null,"is-utilities-expanded?","is-utilities-expanded?",295461359).cljs$core$IFn$_invoke$arity$1(db);
+})], 0));
 
 //# sourceMappingURL=exfn.subscriptions.js.map
