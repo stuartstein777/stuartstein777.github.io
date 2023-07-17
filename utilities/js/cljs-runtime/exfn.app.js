@@ -5,42 +5,42 @@ var is_maths_expanded_QMARK_ = cljs.core.deref(re_frame.core.subscribe.cljs$core
 var is_calculators_expanded_QMARK_ = cljs.core.deref(re_frame.core.subscribe.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"is-calculators-expanded?","is-calculators-expanded?",-467131634)], null)));
 var is_tables_expanded_QMARK_ = cljs.core.deref(re_frame.core.subscribe.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"is-tables-expanded?","is-tables-expanded?",-1133277560)], null)));
 var is_utilities_expanded_QMARK_ = cljs.core.deref(re_frame.core.subscribe.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"is-utilities-expanded?","is-utilities-expanded?",295461359)], null)));
-var current_page_fn = (function (){var pred__18021 = cljs.core._EQ_;
-var expr__18022 = current_page;
-if(cljs.core.truth_((pred__18021.cljs$core$IFn$_invoke$arity$2 ? pred__18021.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"math-gcd","math-gcd",1116679656),expr__18022) : pred__18021.call(null,new cljs.core.Keyword(null,"math-gcd","math-gcd",1116679656),expr__18022)))){
+var current_page_fn = (function (){var pred__15615 = cljs.core._EQ_;
+var expr__15616 = current_page;
+if(cljs.core.truth_((pred__15615.cljs$core$IFn$_invoke$arity$2 ? pred__15615.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"math-gcd","math-gcd",1116679656),expr__15616) : pred__15615.call(null,new cljs.core.Keyword(null,"math-gcd","math-gcd",1116679656),expr__15616)))){
 return exfn.maths.views.gcd;
 } else {
-if(cljs.core.truth_((pred__18021.cljs$core$IFn$_invoke$arity$2 ? pred__18021.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"math-lcm","math-lcm",320434435),expr__18022) : pred__18021.call(null,new cljs.core.Keyword(null,"math-lcm","math-lcm",320434435),expr__18022)))){
+if(cljs.core.truth_((pred__15615.cljs$core$IFn$_invoke$arity$2 ? pred__15615.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"math-lcm","math-lcm",320434435),expr__15616) : pred__15615.call(null,new cljs.core.Keyword(null,"math-lcm","math-lcm",320434435),expr__15616)))){
 return exfn.maths.views.lcm;
 } else {
-if(cljs.core.truth_((pred__18021.cljs$core$IFn$_invoke$arity$2 ? pred__18021.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"math-is-prime?","math-is-prime?",-1873791335),expr__18022) : pred__18021.call(null,new cljs.core.Keyword(null,"math-is-prime?","math-is-prime?",-1873791335),expr__18022)))){
+if(cljs.core.truth_((pred__15615.cljs$core$IFn$_invoke$arity$2 ? pred__15615.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"math-is-prime?","math-is-prime?",-1873791335),expr__15616) : pred__15615.call(null,new cljs.core.Keyword(null,"math-is-prime?","math-is-prime?",-1873791335),expr__15616)))){
 return exfn.maths.views.is_prime_QMARK_;
 } else {
-if(cljs.core.truth_((pred__18021.cljs$core$IFn$_invoke$arity$2 ? pred__18021.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"math-pentagonal-numbers","math-pentagonal-numbers",2002846218),expr__18022) : pred__18021.call(null,new cljs.core.Keyword(null,"math-pentagonal-numbers","math-pentagonal-numbers",2002846218),expr__18022)))){
+if(cljs.core.truth_((pred__15615.cljs$core$IFn$_invoke$arity$2 ? pred__15615.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"math-pentagonal-numbers","math-pentagonal-numbers",2002846218),expr__15616) : pred__15615.call(null,new cljs.core.Keyword(null,"math-pentagonal-numbers","math-pentagonal-numbers",2002846218),expr__15616)))){
 return exfn.maths.views.pentagonal;
 } else {
-if(cljs.core.truth_((pred__18021.cljs$core$IFn$_invoke$arity$2 ? pred__18021.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"statistics","statistics",-1140631984),expr__18022) : pred__18021.call(null,new cljs.core.Keyword(null,"statistics","statistics",-1140631984),expr__18022)))){
+if(cljs.core.truth_((pred__15615.cljs$core$IFn$_invoke$arity$2 ? pred__15615.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"statistics","statistics",-1140631984),expr__15616) : pred__15615.call(null,new cljs.core.Keyword(null,"statistics","statistics",-1140631984),expr__15616)))){
 return exfn.maths.views.stat_analysis;
 } else {
-if(cljs.core.truth_((pred__18021.cljs$core$IFn$_invoke$arity$2 ? pred__18021.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"calculators-bmi","calculators-bmi",1616706756),expr__18022) : pred__18021.call(null,new cljs.core.Keyword(null,"calculators-bmi","calculators-bmi",1616706756),expr__18022)))){
+if(cljs.core.truth_((pred__15615.cljs$core$IFn$_invoke$arity$2 ? pred__15615.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"calculators-bmi","calculators-bmi",1616706756),expr__15616) : pred__15615.call(null,new cljs.core.Keyword(null,"calculators-bmi","calculators-bmi",1616706756),expr__15616)))){
 return exfn.calculators.views.bmi;
 } else {
-if(cljs.core.truth_((pred__18021.cljs$core$IFn$_invoke$arity$2 ? pred__18021.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"converters","converters",195533259),expr__18022) : pred__18021.call(null,new cljs.core.Keyword(null,"converters","converters",195533259),expr__18022)))){
+if(cljs.core.truth_((pred__15615.cljs$core$IFn$_invoke$arity$2 ? pred__15615.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"converters","converters",195533259),expr__15616) : pred__15615.call(null,new cljs.core.Keyword(null,"converters","converters",195533259),expr__15616)))){
 return exfn.converters.view.view;
 } else {
-if(cljs.core.truth_((pred__18021.cljs$core$IFn$_invoke$arity$2 ? pred__18021.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"time","time",1385887882),expr__18022) : pred__18021.call(null,new cljs.core.Keyword(null,"time","time",1385887882),expr__18022)))){
+if(cljs.core.truth_((pred__15615.cljs$core$IFn$_invoke$arity$2 ? pred__15615.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"time","time",1385887882),expr__15616) : pred__15615.call(null,new cljs.core.Keyword(null,"time","time",1385887882),expr__15616)))){
 return exfn.time.view.view;
 } else {
-if(cljs.core.truth_((pred__18021.cljs$core$IFn$_invoke$arity$2 ? pred__18021.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"ascii-table","ascii-table",1521473447),expr__18022) : pred__18021.call(null,new cljs.core.Keyword(null,"ascii-table","ascii-table",1521473447),expr__18022)))){
+if(cljs.core.truth_((pred__15615.cljs$core$IFn$_invoke$arity$2 ? pred__15615.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"ascii-table","ascii-table",1521473447),expr__15616) : pred__15615.call(null,new cljs.core.Keyword(null,"ascii-table","ascii-table",1521473447),expr__15616)))){
 return exfn.tables.view.ascii_view;
 } else {
-if(cljs.core.truth_((pred__18021.cljs$core$IFn$_invoke$arity$2 ? pred__18021.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"unicode-table","unicode-table",-1392956738),expr__18022) : pred__18021.call(null,new cljs.core.Keyword(null,"unicode-table","unicode-table",-1392956738),expr__18022)))){
+if(cljs.core.truth_((pred__15615.cljs$core$IFn$_invoke$arity$2 ? pred__15615.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"unicode-table","unicode-table",-1392956738),expr__15616) : pred__15615.call(null,new cljs.core.Keyword(null,"unicode-table","unicode-table",-1392956738),expr__15616)))){
 return exfn.tables.view.unicode_view;
 } else {
-if(cljs.core.truth_((pred__18021.cljs$core$IFn$_invoke$arity$2 ? pred__18021.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"box-drawing-chars","box-drawing-chars",-480371168),expr__18022) : pred__18021.call(null,new cljs.core.Keyword(null,"box-drawing-chars","box-drawing-chars",-480371168),expr__18022)))){
+if(cljs.core.truth_((pred__15615.cljs$core$IFn$_invoke$arity$2 ? pred__15615.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"box-drawing-chars","box-drawing-chars",-480371168),expr__15616) : pred__15615.call(null,new cljs.core.Keyword(null,"box-drawing-chars","box-drawing-chars",-480371168),expr__15616)))){
 return exfn.tables.view.box_drawing_view;
 } else {
-if(cljs.core.truth_((pred__18021.cljs$core$IFn$_invoke$arity$2 ? pred__18021.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"utilities-text","utilities-text",-1302807214),expr__18022) : pred__18021.call(null,new cljs.core.Keyword(null,"utilities-text","utilities-text",-1302807214),expr__18022)))){
+if(cljs.core.truth_((pred__15615.cljs$core$IFn$_invoke$arity$2 ? pred__15615.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"utilities-text","utilities-text",-1302807214),expr__15616) : pred__15615.call(null,new cljs.core.Keyword(null,"utilities-text","utilities-text",-1302807214),expr__15616)))){
 return exfn.utilities.view.text_view;
 } else {
 return exfn.home.view.view;
