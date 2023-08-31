@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+
+.header {
+    font-size: 2.0em;
+    font-weight: bolder;
+}
+
+.watch-name {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center
+}
+
+.price {
+    font-size: 1.2em;
+    font-weight: bolder;
+    text-align: center
+}
+
+.owned {
+    background-color: rgba(250,128,114, .7);
+}
+
+.watch-image {
+    height: 500px;
+}
+
+.watchcol {
+    padding-top: 30px;
+    text-align: center;
+}
+
+.logo {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
