@@ -1,0 +1,9 @@
+- [ ] Batman - One Dark Knight
+- [ ] Batman - City of Bane
+- [ ] Batman - Their Dark Designs
+- [X] Batman - The Joker War
+- [ ] Batman - Ghost Stories
+- [X] Batman - The Cowardly Lot
+- [ ] Batman - Fear State
+- [X] Batman - Abyss
+- [ ] Batman - Fail Safe
