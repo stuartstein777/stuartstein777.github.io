@@ -6,4 +6,4 @@
 - [X] Batman - The Cowardly Lot
 - [X] Batman - Fear State
 - [X] Batman - Abyss
-- [ ] Batman - Fail Safe
+- [x] Batman - Fail Safe
