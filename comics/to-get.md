@@ -4,6 +4,6 @@
 - [X] Batman - The Joker War
 - [X] Batman - Ghost Stories
 - [X] Batman - The Cowardly Lot
-- [X] Batman - Fear State
+- [ ] Batman - Fear State
 - [X] Batman - Abyss
 - [x] Batman - Fail Safe
