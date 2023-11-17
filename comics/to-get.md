@@ -7,3 +7,5 @@
 - [ ] Batman - Fear State
 - [X] Batman - Abyss
 - [x] Batman - Fail Safe
+- [ ] Shadow of the Bat Vol. 1
+- [ ] Shadow of the Bat Vol. 2
