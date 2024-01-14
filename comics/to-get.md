@@ -4,8 +4,16 @@
 - [X] Batman - The Joker War
 - [X] Batman - Ghost Stories
 - [X] Batman - The Cowardly Lot
-- [ ] Batman - Fear State
+- [x] Batman - Fear State
 - [X] Batman - Abyss
 - [x] Batman - Fail Safe
 - [ ] Shadow of the Bat Vol. 1
 - [ ] Shadow of the Bat Vol. 2
+
+# Batman / Catwoman: The Gotham War                      
+-[ ] Part 1 Batman #136                                                                   
+-[ ] Part 2 Batman #137                                                                   
+-[ ] Part 3 Catwoman #57                                                                  
+-[ ] Part 4 Batman #138                                                                   
+-[ ] Part 5 Catwoman #58                                                                  
+-[ ] Part 6 Batman / Catwoman: The Gotham War – Scorched Earth #1   
