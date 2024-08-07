@@ -9,6 +9,11 @@
 - [x] Batman - Fail Safe
 - [ ] Shadow of the Bat Vol. 1
 - [ ] Shadow of the Bat Vol. 2
+- [ ] Batman / Catwoman: The Gotham War
+- [ ] HUman Target - Tom KIng
+- [ ] Catwoman LOnely City
+- [ ] Nightwing - Taylor / Redondo
+- [ ] Green Arrow - JOshua Williamson
 
 # Batman / Catwoman: The Gotham War                      
 - [ ] Part 1 Batman #136                                                                   
