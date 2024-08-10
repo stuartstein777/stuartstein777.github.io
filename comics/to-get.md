@@ -14,6 +14,7 @@
 - [ ] Catwoman LOnely City
 - [ ] Nightwing - Taylor / Redondo
 - [ ] Green Arrow - JOshua Williamson
+- [ ] Batman ONe Bad Day - Catwoman
 
 # Batman / Catwoman: The Gotham War                      
 - [ ] Part 1 Batman #136                                                                   
