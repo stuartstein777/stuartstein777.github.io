@@ -9,8 +9,9 @@
 - [x] Batman - Fail Safe
 - [ ] Shadow of the Bat Vol. 1
 - [ ] Shadow of the Bat Vol. 2
-- [ ] Batman / Catwoman: The Gotham War
+- [X] Batman / Catwoman: The Gotham War
 - [ ] HUman Target - Tom KIng
+- [X] Batman One Bad Day Catwoman
 - [ ] Catwoman LOnely City
 - [ ] Nightwing - Taylor / Redondo
 - [ ] Green Arrow - JOshua Williamson
