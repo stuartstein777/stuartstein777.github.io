@@ -1,7 +1,43 @@
 [{
     "Id": 1,
     "Description": "Sub Club roof party",
-    "Date": "2024-07-24",
+    "Date": "2024-08-24",
     "Type": "club",
     "Location": "Sub Club, Glasgow"
+},
+{
+    "Id": 2,
+    "Description": "Dinner and beers with Ross",
+    "Date": "2024-08-03",
+    "Type": "Food and Beers",
+    "Location": "Sartis Italian"
+},
+{
+    "Id": 3,
+    "Description": "Night out with Alex",
+    "Date": "2024-08-31",
+    "Type": "Night Out",
+    "Location": "Edinburgh"
+},
+{
+    "Id": 4,
+    "Description": "UNKLE",
+    "Date": "2024-10-16",
+    "Type": "Gig",
+    "Location": "St Lukes"
+},
+{
+    "Id": 5,
+    "Description": "I LOVE ACID, Leftfield DJ Set",
+    "Date": "2024-10-18",
+    "Type": "Gig",
+    "Location": "Berkley Suite"
+
+},
+{
+    "Id": 6,
+    "Description": "Idles",
+    "Date": "2024-11-23",
+    "Type": "Gig",
+    "Location": "OVO Hydro"
 }]
