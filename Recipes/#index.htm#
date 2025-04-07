@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Recipes</title>
+        <link rel="stylesheet" href="main.css">
+    </head>
+    
+    <body>
+        <h1>Recipe Collection</h1>
+
+        <div class="recipes-list">
+            <h2>🐔 Chicken</h2>
+            <ul>
+                <li><a href="sticky-honey-chicken.htm">Sticky Honey Chicken with Rocket and Parmesan Salad</a></li>
+                <li><a href="chicken-with-tomatos-mozzarella-basil.htm">Chicken with Tomatos, Mozzarella and Basil</a></li>
+		<li><a href="harrisa-chicken-cous-cous.htm">Harrisa Chicken and cous cous</a></li>
+		<li><a href="yellow-rice-chicken.htm">Yellow Rice and Chicken</a></li>
+		<li><a href="chicken-katsu-curry.htm">Chicken Katsu Curry</a></li>
+		<li><a href="tomato-and-peanut-butter-chicken.htm">Tomato and peanut butter chicken</a></li>
+		<li><a href="smashed-lemongrass-chicken.htm">Smashed Lemongrass Chicken</a></li>
+		<li><a href="gnarly-peanut-chicken.htm">Gnarly Peanut Chicken</a></li>
+            </ul>
+        </div>
+        <div class="recipes-list">
+            <h2>🐟 Fish and Seafood</h2>
+            <ul>
+              <li><a href="salmon-and-gochujang-burritos.htm">Salmon and Gochujang Burritos</a></li>
+	      <li><a href="teriyaki-prawns.htm">Teriyaki Prawns</a></li>
+	      <li><a href="crispy-pesto-salmon.htm">Pesto Salmon</a></li>
+	      <li><a href="Cut through the flesh of the salmon at 1cm intervals
+            </ul>
+        </div>
+	<div class="recipes-list">
+	  <h2>Beef</h2>
+	  <ul>
+	    <li><a href="pepper-steak-stir-fry.htm">Pepper Steak Stir Fry</a></li>
+	  </ul>
+	</div>
+	<div class="recipes-list">
+	  <h2>🍝 Pasta</h2>
+	  <ul>
+	    <li><a href="meatballs-and-pasta.htm">Meatballs and Pasta in a tomato sauce</li>
+	    <li><a href="lemon-parmesan-gnocci.htm">Lemon Parmesan Gnocci</a></li>
+	    <li><a href="sausage-pappardelle.htm">Sausage Pappardelle</a></li>
+	    <li><a href="sweet-pepper-pesto-pasta.htm">Sweet Pepper Pesto Pasta</a></li>
+	  </ul>
+	</div>
+        <div class="recipes-list">
+            <h2>Mince</h2>
+            <ul>
+              <li><a href="chilli-con-carne.htm">Chilli Con Carne</a></li>
+	      <li><a href="shepherd-pie.htm">Shepherds Pie</a></li>
+	      <li><a href="spicey-beef-arayes.htm">Spicey Beef Arayes</a></li>
+	      <li><a href="spaghetti-bolognese.htm">Spaghetti Bolognese</a></li>
+            </ul>
+        </div>
+	<div class="recipes-list">
+	  <h2>🥔 Potatoes</h2>
+	  <ul>
+	    <li><a href="creamy-lemon-feta-potatos.htm">Creamy lemon feta potatos</a></li>
+	  </ul>
+        </div>
+	<div class="recipes-list">
+            <h2>Sauces</h2>
+            <ul>
+              <li><a href="satay-sauce.htm">Satay Sauce</a></li>
+	      <li><a href="roasted-vegetable-pasta-sauce.htm">Roasted Vegetable Pasta Sauce</a></li>
+            </ul>
+        </div>
+	<div class="recipes-list">
+            <h2>Misc.</h2>
+            <ul>
+              <li><a href="bangers-and-mash.htm">Bangers and Mash</a></li>
+            </ul>
+        </div>
+
+    </body>
+</html>
