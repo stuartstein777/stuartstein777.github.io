@@ -1,24 +1,278 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
+  <title>My Projects</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    // Enable Tailwind dark mode class strategy
+    tailwind.config = {
+      darkMode: 'class',
+    };
+  </script>
 </head>
-<body>
-<p>Some test / learning re-frame projects I'm working on:</p><br/>
-<a href="https://www.toyasm.com">TOY ASM</a><br/>
-<a href="minesweeper/index.html">Minesweeper</a><br/>
-<a href="maze-solver/index.html">Maze Solver</a><br/>
-<a href="brainfuck-interpreter/index.html">Brainfuck Interpreter</a><br/>
-<a href="tictactoe/index.html">Tic-Tac-Toe</a><br/>
-<a href="point-in-a-polygon/index.html">Point in a polygon</a><br/>
-<a href="euros-generator/index.html">Euros Generator</a><br/>
-<a href="lotto-checker/index.html">Lotto Checker</a><br/>
-<a href="wordle-clone/index.html">Wordle Clone</a><br/>
-<a href="peg-solitaire/index.html">English Peg Solitaire</a><br/>
-<a href="mastermind/index.html">Mastermind</a><br/>
-<a href="2048/index.html">2048</a><br/>
-<a href="snake/index.html">Snake (Golang compiled to wasm)</a><br/>
-<a href="space-shooter/index.html">A simple space shooter like asteroids (Golang compiled to wasm)</a><br/>
-<br/>
-Last updated 16-May-2025 12:24
+<body class="bg-gray-100 dark:bg-gray-900 text-gray-800 dark:text-gray-100 transition-colors duration-300">
+     <div class="max-w-6xl mx-auto p-6">
+
+        <!-- Dark Mode Toggle Button -->
+    <div class="flex justify-end mb-4">
+      <button id="toggle-dark" class="px-4 py-2 rounded bg-gray-200 dark:bg-gray-700 text-sm">
+        Toggle Dark Mode
+      </button>
+    </div>
+
+    <!-- Bio Section -->
+    <div class="bg-white dark:bg-gray-800 rounded-2xl shadow-md p-6 mb-10">
+      <h1 class="text-3xl font-bold mb-2">Stuart Stein</h1>
+      <p class="text-gray-600 dark:text-gray-300 mb-2">Consultant Software Developer at <span class="font-medium text-gray-800 dark:text-white">XPS Pensions</span></p>
+      
+      <p class="mb-4 text-gray-700 dark:text-gray-300">
+        Software developer with an interesting in functional programming, game development and web technologies. Extensive experience on the front-end and back-end of web applications, with a focus on building scalable and maintainable systems.
+        Experience in Azure.
+        In my spare time I enjoy building games and experimenting with new technologies.
+        Outside software development I love climbing, bouldering, hiking and running.
+      </p>
+      
+      <div class="flex flex-wrap items-center gap-4 mb-4">
+        <a href="https://www.linkedin.com/in/stuart-stein-972171135/" class="text-blue-400 dark:text-blue-400 hover:underline text-sm">🔗 LinkedIn</a> |
+        <a href="mailto:qmstuart@gmail.com" class="text-sm text-gray-600 hover:underline dark:text-white">📧 qmstuart@gmail.com</a> |
+        <a href="https://www.flickr.com/photos/stuartstein" target="_blank">
+            <img src="images/Flickr_dots.svg.png" alt="Flickr" class="w-6 h-6" />
+        </a> | 
+      </div>
+
+      <div>
+        <h2 class="text-lg font-semibold mb-2">Tech Stack</h2>
+        <div class="flex flex-wrap gap-2">
+          <span class="bg-gray-200 text-sm px-2 py-1 rounded dark:text-gray-200 dark:bg-gray-700">Clojure / (Script)</span>
+          <span class="bg-gray-200 text-sm px-2 py-1 rounded dark:text-gray-200 dark:bg-gray-700">Reframe / Reagent</span>
+          <span class="bg-gray-200 text-sm px-2 py-1 rounded dark:text-gray-200 dark:bg-gray-700">Go</span>
+          <span class="bg-gray-200 text-sm px-2 py-1 rounded dark:text-gray-200 dark:bg-gray-700">C# .NET</span>
+          <span class="bg-gray-200 text-sm px-2 py-1 rounded dark:text-gray-200 dark:bg-gray-700">SQL</span>
+          <span class="bg-gray-200 text-sm px-2 py-1 rounded dark:text-gray-200 dark:bg-gray-700">Javascript</span>
+          <span class="bg-gray-200 text-sm px-2 py-1 rounded dark:text-gray-200 dark:bg-gray-700">Azure</span>
+          <span class="bg-gray-200 text-sm px-2 py-1 rounded dark:text-gray-200 dark:bg-gray-700">TDD</span>
+        </div>
+      </div>
+    </div>
+  <div class="max-w-6xl mx-auto p-6">
+    <h1 class="text-4xl font-bold mb-8 text-center">Projects</h1>
+    
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      
+      <!-- Project Tile -->
+      <div class="bg-white dark:bg-gray-800 rounded-2xl shadow-md overflow-hidden hover:shadow-lg transition-shadow border border-transparent dark:border-white flex flex-col">
+        <img src="images/space-shooter-ss.png" alt="Project Image" class="w-full h-48 object-cover">
+        <div class="p-4 flex flex-col flex-grow">
+          <h3 class="text-xl font-semibold mb-2">Space Shooter</h3>
+          <div class="flex flex-wrap gap-2 mb-4">
+            <span class="bg-blue-100 text-blue-800 dark:bg-blue-800 dark:text-blue-100 text-sm px-2 py-1 rounded">Go</span>
+            <span class="bg-blue-100 text-blue-800 dark:bg-blue-800 dark:text-blue-100 text-sm px-2 py-1 rounded">ebitengine</span>
+          </div>
+          <p class="text-sm text-gray-700 dark:text-gray-300 mb-4">
+            A simple 2D space shooter game built with Go and the Ebiten game library. The game features basic shooting mechanics, enemy spawning, power-ups and collision detection. Runs in the browser via wasm
+          </p>
+          <div class="mt-auto flex space-x-4 text-sm font-medium">
+            <a href="https://github.com/stuartstein777/go-space-shooter" class="text-blue-400 dark:text-blue-400 dark:text-blue-400 hover:underline">GitHub</a>
+            <a href="https://stuartstein777.github.io/space-shooter/index.html" class="text-green-600 dark:text-green-600 dark:text-green-400 hover:underline">Play Online</a>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="bg-white dark:bg-gray-800 rounded-2xl shadow-md overflow-hidden hover:shadow-lg transition-shadow border border-transparent dark:border-white flex flex-col">
+        <img src="images/snake-ss.png" alt="Project Image" class="w-full h-48 object-cover">
+        <div class="p-4 flex flex-col flex-grow">
+          <h2 class="text-xl font-semibold mb-2">Snake</h2>
+          <div class="flex flex-wrap gap-2 mb-4">
+            <span class="bg-blue-100 text-blue-800 dark:bg-blue-800 dark:text-blue-100 text-sm px-2 py-1 rounded">Go</span>
+            <span class="bg-blue-100 text-blue-800 dark:bg-blue-800 dark:text-blue-100 text-sm px-2 py-1 rounded">ebitengine</span>
+          </div>
+          <div class="flex space-x-4 text-sm font-small">
+            A simple implementation of the classic Snake game using Go and the Ebiten game library. The game features basic snake movement, food spawning, and collision detection.  Runs in the browser via wasm
+          </div>
+          <div class="mt-auto flex space-x-4 text-sm font-medium">
+            <a href="https://stuartstein777.github.io/snake/index.html" class="text-blue-400 dark:text-blue-400 dark:text-blue-400 hover:underline">GitHub</a>
+            <a href="https://stuartstein777.github.io/snake/index.html" class="text-green-600 dark:text-green-600 dark:text-green-400 hover:underline">Play Online</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-white dark:bg-gray-800 rounded-2xl shadow-md overflow-hidden hover:shadow-lg transition-shadow border border-transparent dark:border-white flex flex-col">
+        <img src="images/toy-asm-ss.png" alt="Project Image" class="w-full h-48 object-cover">
+        <div class="p-4 flex flex-col flex-grow">
+          <h2 class="text-xl font-semibold mb-2">TOY ASM</h2>
+          <div class="flex flex-wrap gap-2 mb-4">
+            <span class="bg-blue-100 text-blue-800 dark:bg-blue-800 dark:text-blue-100 text-sm px-2 py-1 rounded">Clojurescript</span>
+            <span class="bg-blue-100 text-blue-800 dark:bg-blue-800 dark:text-blue-100 text-sm px-2 py-1 rounded">Reframe</span>
+            <span class="bg-blue-100 text-blue-800 dark:bg-blue-800 dark:text-blue-100 text-sm px-2 py-1 rounded">Reagent</span>
+            <span class="bg-blue-100 text-blue-800 dark:bg-blue-800 dark:text-blue-100 text-sm px-2 py-1 rounded">Shadow-cljs</span>
+          </div>
+          <div class="flex space-x-4 text-sm font-small">
+            An implementation of a custom ASM language, with a source code parser, interpreter and a visualisation of that interpreter as it runs. Configurable run speed, with supports for breakpoints and steppoing through code.
+          </div>
+          <div class="mt-auto flex space-x-4 text-sm font-medium">
+            <a href="https://github.com/stuartstein777/cljs-asm" class="text-blue-400 dark:text-blue-400 dark:text-blue-400 hover:underline">GitHub</a>
+            <a href="https://www.toyasm.com" class="text-green-600 dark:text-green-600 dark:text-green-400 hover:underline">Play Online</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-white dark:bg-gray-800 rounded-2xl shadow-md overflow-hidden hover:shadow-lg transition-shadow border border-transparent dark:border-white flex flex-col">
+        <img src="images/wordle-ss.png" alt="Project Image" class="w-full h-48 object-cover">
+        <div class="p-4 flex flex-col flex-grow">
+          <h2 class="text-xl font-semibold mb-2">Wordle Clone</h2>
+          <div class="flex flex-wrap gap-2 mb-4">
+            <span class="bg-blue-100 text-blue-800 dark:bg-blue-800 dark:text-blue-100 text-sm px-2 py-1 rounded">Clojurescript</span>
+            <span class="bg-blue-100 text-blue-800 dark:bg-blue-800 dark:text-blue-100 text-sm px-2 py-1 rounded">Reframe</span>
+            <span class="bg-blue-100 text-blue-800 dark:bg-blue-800 dark:text-blue-100 text-sm px-2 py-1 rounded">Reagent</span>
+            <span class="bg-blue-100 text-blue-800 dark:bg-blue-800 dark:text-blue-100 text-sm px-2 py-1 rounded">Shadow-cljs</span>
+          </div>
+          <div class="flex space-x-4 text-sm font-small">
+            A Wordle clone.
+          </div>
+          <div class="mt-auto flex space-x-4 text-sm font-medium">
+            <a href="https://github.com/stuartstein777/cljs-wordle-clone" class="text-blue-400 dark:text-blue-400 hover:underline">GitHub</a>
+            <a href="https://stuartstein777.github.io/wordle-clone/index.html" class="text-green-600 dark:text-green-400 hover:underline">Play Online</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-white dark:bg-gray-800 rounded-2xl shadow-md overflow-hidden hover:shadow-lg transition-shadow border border-transparent dark:border-white flex flex-col">
+        <img src="images/2048-ss.png" alt="Project Image" class="w-full h-48 object-cover">
+        <div class="p-4 flex flex-col flex-grow">
+          <h2 class="text-xl font-semibold mb-2">2048 Clone</h2>
+          <div class="flex flex-wrap gap-2 mb-4">
+            <span class="bg-blue-100 text-blue-800 dark:bg-blue-800 dark:text-blue-100 text-sm px-2 py-1 rounded">Clojurescript</span>
+            <span class="bg-blue-100 text-blue-800 dark:bg-blue-800 dark:text-blue-100 text-sm px-2 py-1 rounded">Reframe</span>
+            <span class="bg-blue-100 text-blue-800 dark:bg-blue-800 dark:text-blue-100 text-sm px-2 py-1 rounded">Reagent</span>
+            <span class="bg-blue-100 text-blue-800 dark:bg-blue-800 dark:text-blue-100 text-sm px-2 py-1 rounded">Shadow-cljs</span>
+          </div>
+          <div class="flex space-x-4 text-sm font-small">
+            A 2048 clone.
+          </div>
+          <div class="mt-auto flex space-x-4 text-sm font-medium">
+            <a href="https://github.com/stuartstein777/cljs-wordle-clone" class="text-blue-400 dark:text-blue-400 hover:underline">GitHub</a>
+            <a href="https://stuartstein777.github.io/2048/index.html" class="text-green-600 dark:text-green-400 hover:underline">Play Online</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-white dark:bg-gray-800 rounded-2xl shadow-md overflow-hidden hover:shadow-lg transition-shadow border border-transparent dark:border-white flex flex-col">
+        <img src="images/minesweeper-ss.png" alt="Project Image" class="w-full h-48 object-cover">
+        <div class="p-4 flex flex-col flex-grow">
+          <h2 class="text-xl font-semibold mb-2">Minesweeper</h2>
+          <div class="flex flex-wrap gap-2 mb-4">
+            <span class="bg-blue-100 text-blue-800 dark:bg-blue-800 dark:text-blue-100 text-sm px-2 py-1 rounded">Clojurescript</span>
+            <span class="bg-blue-100 text-blue-800 dark:bg-blue-800 dark:text-blue-100 text-sm px-2 py-1 rounded">Reframe</span>
+            <span class="bg-blue-100 text-blue-800 dark:bg-blue-800 dark:text-blue-100 text-sm px-2 py-1 rounded">Reagent</span>
+            <span class="bg-blue-100 text-blue-800 dark:bg-blue-800 dark:text-blue-100 text-sm px-2 py-1 rounded">Shadow-cljs</span>
+          </div>
+          <div class="flex space-x-4 text-sm font-small">
+            A Minesweeper clone.
+          </div>
+          <div class="mt-auto flex space-x-4 text-sm font-medium">
+            <a href="https://github.com/stuartstein777/cljs-minesweeper" class="text-blue-400 dark:text-blue-400 hover:underline">GitHub</a>
+            <a href="https://stuartstein777.github.io/minesweeper/index.html" class="text-green-600 dark:text-green-400 hover:underline">Play Online</a>
+          </div>
+        </div>
+      </div>
+
+      
+      <div class="bg-white dark:bg-gray-800 rounded-2xl shadow-md overflow-hidden hover:shadow-lg transition-shadow border border-transparent dark:border-white flex flex-col">
+        <img src="images/maze-solver-ss.png" alt="Project Image" class="w-full h-48 object-cover">
+        <div class="p-4 flex flex-col flex-grow">
+          <h2 class="text-xl font-semibold mb-2">Maze Solver</h2>
+          <div class="flex flex-wrap gap-2 mb-4">
+            <span class="bg-blue-100 text-blue-800 dark:bg-blue-800 dark:text-blue-100 text-sm px-2 py-1 rounded">Clojurescript</span>
+            <span class="bg-blue-100 text-blue-800 dark:bg-blue-800 dark:text-blue-100 text-sm px-2 py-1 rounded">Reframe</span>
+            <span class="bg-blue-100 text-blue-800 dark:bg-blue-800 dark:text-blue-100 text-sm px-2 py-1 rounded">Reagent</span>
+            <span class="bg-blue-100 text-blue-800 dark:bg-blue-800 dark:text-blue-100 text-sm px-2 py-1 rounded">Shadow-cljs</span>
+          </div>
+          <div class="flex space-x-4 text-sm font-small">
+            A project that allows you to create mazes in a grid, set a start and end position and have it generate the shortest path from start to end.
+          </div>
+          <div class="mt-auto flex space-x-4 text-sm font-medium">
+            <a href="https://github.com/stuartstein777/cljs-maze-solver" class="text-blue-400 dark:text-blue-400 hover:underline">GitHub</a>
+            <a href="https://stuartstein777.github.io/maze-solver/index.html" class="text-green-600 dark:text-green-400 hover:underline">Play Online</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-white dark:bg-gray-800 rounded-2xl shadow-md overflow-hidden hover:shadow-lg transition-shadow border border-transparent dark:border-white flex flex-col">
+        <img src="images/pip-ss.png" alt="Project Image" class="w-full h-48 object-cover">
+        <div class="p-4 flex flex-col flex-grow">
+          <h2 class="text-xl font-semibold mb-2">Point in a Polygon solver</h2>
+          <div class="flex flex-wrap gap-2 mb-4">
+            <span class="bg-blue-100 text-blue-800 dark:bg-blue-800 dark:text-blue-100 text-sm px-2 py-1 rounded">Clojurescript</span>
+            <span class="bg-blue-100 text-blue-800 dark:bg-blue-800 dark:text-blue-100 text-sm px-2 py-1 rounded">Reframe</span>
+            <span class="bg-blue-100 text-blue-800 dark:bg-blue-800 dark:text-blue-100 text-sm px-2 py-1 rounded">Reagent</span>
+            <span class="bg-blue-100 text-blue-800 dark:bg-blue-800 dark:text-blue-100 text-sm px-2 py-1 rounded">Shadow-cljs</span>
+          </div>
+          <div class="flex space-x-4 text-sm font-small">
+            A project that allows you to draw complex polygons, then select points and it determines if the point is inside or outside the polygon using winding numbers.
+          </div>
+          <div class="mt-auto flex space-x-4 text-sm font-medium">
+            <a href="https://github.com/stuartstein777/cljs-point-in-a-polygon" class="text-blue-400 dark:text-blue-400 hover:underline">GitHub</a>
+            <a href="https://stuartstein777.github.io/point-in-a-polygon/index.html" class="text-green-600 dark:text-green-400 hover:underline">Play Online</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-white dark:bg-gray-800 rounded-2xl shadow-md overflow-hidden hover:shadow-lg transition-shadow border border-transparent dark:border-white flex flex-col">
+        <img src="images/brainfuck-interpreter-ss.png" alt="Project Image" class="w-full h-48 object-cover">
+        <div class="p-4 flex flex-col flex-grow">
+          <h2 class="text-xl font-semibold mb-2">Brainfuck Interpreter</h2>
+          <div class="flex flex-wrap gap-2 mb-4">
+            <span class="bg-blue-100 text-blue-800 dark:bg-blue-800 dark:text-blue-100 text-sm px-2 py-1 rounded">Clojurescript</span>
+            <span class="bg-blue-100 text-blue-800 dark:bg-blue-800 dark:text-blue-100 text-sm px-2 py-1 rounded">Reframe</span>
+            <span class="bg-blue-100 text-blue-800 dark:bg-blue-800 dark:text-blue-100 text-sm px-2 py-1 rounded">Reagent</span>
+            <span class="bg-blue-100 text-blue-800 dark:bg-blue-800 dark:text-blue-100 text-sm px-2 py-1 rounded">Shadow-cljs</span>
+          </div>
+          <div class="flex space-x-4 text-sm font-small">
+            A brainfuck interpreter.
+          </div>
+          <div class="mt-auto flex space-x-4 text-sm font-medium">
+            <a href="https://github.com/stuartstein777/cljs-brainfuck-interpreter" class="text-blue-400 dark:text-blue-400 hover:underline">GitHub</a>
+            <a href="https://stuartstein777.github.io/brainfuck-interpreter/index.html" class="text-green-600 dark:text-green-400 hover:underline">Play Online</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-white dark:bg-gray-800 rounded-2xl shadow-md overflow-hidden hover:shadow-lg transition-shadow border border-transparent dark:border-white flex flex-col">
+        <img src="images/peg-solitaire-ss.png" alt="Project Image" class="w-full h-48 object-cover">
+        <div class="p-4 flex flex-col flex-grow">
+          <h2 class="text-xl font-semibold mb-2">Peg Solitaire</h2>
+          <div class="flex flex-wrap gap-2 mb-4">
+            <span class="bg-blue-100 text-blue-800 dark:bg-blue-800 dark:text-blue-100 text-sm px-2 py-1 rounded">Clojurescript</span>
+            <span class="bg-blue-100 text-blue-800 dark:bg-blue-800 dark:text-blue-100 text-sm px-2 py-1 rounded">Reframe</span>
+            <span class="bg-blue-100 text-blue-800 dark:bg-blue-800 dark:text-blue-100 text-sm px-2 py-1 rounded">Reagent</span>
+            <span class="bg-blue-100 text-blue-800 dark:bg-blue-800 dark:text-blue-100 text-sm px-2 py-1 rounded">Shadow-cljs</span>
+          </div>
+          <div class="flex space-x-4 text-sm font-small">
+            Peg Solitaire. The aim is to remove all but one pegs by jumping pegs to remove them.
+          </div>
+          <div class="mt-auto flex space-x-4 text-sm font-medium">
+            <a href="https://github.com/stuartstein777/cljs-peg-solitaire" class="text-blue-400 dark:text-blue-400 hover:underline">GitHub</a>
+            <a href="https://stuartstein777.github.io/peg-solitaire/index.html" class="text-green-600 dark:text-green-400 hover:underline">Play Online</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <script>
+    // Load saved preference
+    if (localStorage.theme === 'dark') {
+      document.documentElement.classList.add('dark');
+    }
+
+    const btn = document.getElementById('toggle-dark');
+    btn.addEventListener('click', () => {
+      const html = document.documentElement;
+      html.classList.toggle('dark');
+      localStorage.theme = html.classList.contains('dark') ? 'dark' : 'light';
+    });
+  </script>
 </body>
 </html>
-
